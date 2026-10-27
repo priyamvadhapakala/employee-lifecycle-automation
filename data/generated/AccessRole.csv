@@ -1,0 +1,5 @@
+access_role_id,role_name,description,approval_required,created_at
+AROLE-001,email_standard,Standard company email and calendar,0,2026-01-01T00:00:00Z
+AROLE-002,source_control,Source code repository access,1,2026-01-01T00:00:00Z
+AROLE-003,finance_system,Finance system access,1,2026-01-01T00:00:00Z
+AROLE-004,support_console,Customer support console access,1,2026-01-01T00:00:00Z

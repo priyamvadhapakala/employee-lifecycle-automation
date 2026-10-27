@@ -1,0 +1,6 @@
+anomaly_id,issue_type,entity_type,entity_id,expected_label,severity,reason,expected_rule,affected_record_ids
+ANOM-001,access_before_start_or_approval,AccessGrant,GRANT-EMP-000002-001,1,high,Grant effective date was moved before the employee start date.,Access must be approved when required and effective on or after the employee start date.,"[""GRANT-EMP-000002-001"",""EMP-000002""]"
+ANOM-002,duplicate_asset_assignment,Asset,AST-000001,1,high,The same asset has two simultaneously active employee assignments.,An asset may have at most one active assignment at a time.,"[""AST-000001"",""ASG-000001"",""ASG-000901"",""EMP-000001"",""EMP-000002""]"
+ANOM-003,terminated_employee_active_grant,AccessGrant,GRANT-EMP-000001-001,1,critical,An active access grant was retained for a terminated employee.,Terminated employees must not have active access grants.,"[""GRANT-EMP-000001-001"",""EMP-000001""]"
+ANOM-004,circular_task_dependency,Dependency,DEP-006801,1,high,"A reverse dependency was added, creating a two-task cycle.",The task prerequisite graph must be acyclic.,"[""TASK-ONB-2026-000001-002"",""TASK-ONB-2026-000001-001"",""DEP-000001"",""DEP-006801""]"
+ANOM-005,recovered_asset_marked_assigned,Asset,AST-000001,1,high,A recovered asset is still marked as assigned.,Recovered assets must not retain an active assignment.,"[""AST-000001"",""ASG-000001""]"

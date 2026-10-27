@@ -1,0 +1,77 @@
+[
+  {
+    "affected_record_ids": [
+      "GRANT-EMP-000002-001",
+      "EMP-000002"
+    ],
+    "anomaly_id": "ANOM-001",
+    "entity_id": "GRANT-EMP-000002-001",
+    "entity_type": "AccessGrant",
+    "expected_label": 1,
+    "expected_rule": "Access must be approved when required and effective on or after the employee start date.",
+    "issue_type": "access_before_start_or_approval",
+    "reason": "Grant effective date was moved before the employee start date.",
+    "severity": "high"
+  },
+  {
+    "affected_record_ids": [
+      "AST-000001",
+      "ASG-000001",
+      "ASG-000901",
+      "EMP-000001",
+      "EMP-000002"
+    ],
+    "anomaly_id": "ANOM-002",
+    "entity_id": "AST-000001",
+    "entity_type": "Asset",
+    "expected_label": 1,
+    "expected_rule": "An asset may have at most one active assignment at a time.",
+    "issue_type": "duplicate_asset_assignment",
+    "reason": "The same asset has two simultaneously active employee assignments.",
+    "severity": "high"
+  },
+  {
+    "affected_record_ids": [
+      "GRANT-EMP-000001-001",
+      "EMP-000001"
+    ],
+    "anomaly_id": "ANOM-003",
+    "entity_id": "GRANT-EMP-000001-001",
+    "entity_type": "AccessGrant",
+    "expected_label": 1,
+    "expected_rule": "Terminated employees must not have active access grants.",
+    "issue_type": "terminated_employee_active_grant",
+    "reason": "An active access grant was retained for a terminated employee.",
+    "severity": "critical"
+  },
+  {
+    "affected_record_ids": [
+      "TASK-ONB-2026-000001-002",
+      "TASK-ONB-2026-000001-001",
+      "DEP-000001",
+      "DEP-006801"
+    ],
+    "anomaly_id": "ANOM-004",
+    "entity_id": "DEP-006801",
+    "entity_type": "Dependency",
+    "expected_label": 1,
+    "expected_rule": "The task prerequisite graph must be acyclic.",
+    "issue_type": "circular_task_dependency",
+    "reason": "A reverse dependency was added, creating a two-task cycle.",
+    "severity": "high"
+  },
+  {
+    "affected_record_ids": [
+      "AST-000001",
+      "ASG-000001"
+    ],
+    "anomaly_id": "ANOM-005",
+    "entity_id": "AST-000001",
+    "entity_type": "Asset",
+    "expected_label": 1,
+    "expected_rule": "Recovered assets must not retain an active assignment.",
+    "issue_type": "recovered_asset_marked_assigned",
+    "reason": "A recovered asset is still marked as assigned.",
+    "severity": "high"
+  }
+]

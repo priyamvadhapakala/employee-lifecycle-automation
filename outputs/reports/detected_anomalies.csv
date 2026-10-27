@@ -1,0 +1,6 @@
+issue_type,entity_type,entity_id,affected_record_ids,reason
+terminated_employee_active_grant,AccessGrant,GRANT-EMP-000001-001,"[""GRANT-EMP-000001-001"",""EMP-000001""]",active grant belongs to terminated employee
+access_before_start_or_approval,AccessGrant,GRANT-EMP-000002-001,"[""GRANT-EMP-000002-001"",""EMP-000002""]",grant effective before employee start
+circular_task_dependency,Dependency,DEP-006801,"[""TASK-ONB-2026-000001-001"",""TASK-ONB-2026-000001-002"",""TASK-ONB-2026-000001-001"",""DEP-000001"",""DEP-006801""]",Task dependency graph contains a cycle.
+duplicate_asset_assignment,Asset,AST-000001,"[""AST-000001"",""ASG-000001"",""ASG-000901"",""EMP-000001"",""EMP-000002""]",Asset is actively assigned to multiple employees.
+recovered_asset_marked_assigned,Asset,AST-000001,"[""AST-000001"",""ASG-000001""]",Recovered asset still has active assignment status.

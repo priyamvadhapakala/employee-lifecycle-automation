@@ -1,0 +1,28 @@
+{
+  "seed": 20261022,
+  "mode": "starter",
+  "anomaly_injection": true,
+  "paths": {
+    "generated_data": "data/generated",
+    "ground_truth": "data/ground_truth",
+    "exports": "data/exports",
+    "database": "database/employee_lifecycle.db",
+    "logs": "logs",
+    "reports": "outputs/reports",
+    "charts": "outputs/charts"
+  },
+  "dataset_sizes": {
+    "starter": {
+      "employees": 30,
+      "tasks": 120,
+      "access_grants": 45,
+      "assets": 36
+    },
+    "full": {
+      "employees": 1000,
+      "tasks": 8000,
+      "access_grants": 1500,
+      "assets": 1200
+    }
+  }
+}

@@ -1,0 +1,2 @@
+"""Employee lifecycle automation package."""
+

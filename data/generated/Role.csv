@@ -1,0 +1,6 @@
+role_id,role_name,role_family,employment_type_default,created_at
+ROLE-001,People Partner,People Operations,full_time,2026-01-01T00:00:00Z
+ROLE-002,Software Engineer,Engineering,full_time,2026-01-01T00:00:00Z
+ROLE-003,Financial Analyst,Finance,full_time,2026-01-01T00:00:00Z
+ROLE-004,Support Specialist,Customer Operations,contractor,2026-01-01T00:00:00Z
+ROLE-005,Facilities Coordinator,Facilities,full_time,2026-01-01T00:00:00Z

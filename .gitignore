@@ -1,0 +1,20 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mplconfig/
+# Ignore local database and logs
+database/*.db
+logs/*
+
+# Keep generated assignment datasets and reports in GitHub
+# data/generated/*
+# data/exports/*
+# data/ground_truth/*
+# outputs/reports/*
+# outputs/charts/*
+
+# Keep folder placeholders in version control
+!.gitkeep

@@ -1,0 +1,122 @@
+{
+  "first_run": {
+    "AccessGrant.csv": {
+      "rows": 1500,
+      "sha256": "8e10b926eaabb770dc3cd9f2159fb41e4e8a559f0ddf3643ad83bf6a5dcda8a5"
+    },
+    "AccessRole.csv": {
+      "rows": 4,
+      "sha256": "95ff1eb9ce4e5f48a89bb5c5c2c118e91109498ba6dc1eb4473dfeb6a19e80c8"
+    },
+    "Asset.csv": {
+      "rows": 1200,
+      "sha256": "2d0411bc4d5a51d6a6bff1bf6dce63af07bd289a76372681c54d92f522db3bc7"
+    },
+    "AssetAssignment.csv": {
+      "rows": 901,
+      "sha256": "da594a97d95e677983bc4a896dc7f5a9245a6a5cfd00379cc38bd88d5bf02bed"
+    },
+    "AuditEvent.csv": {
+      "rows": 11039,
+      "sha256": "20373b5f08c61bb7557d545f911e65acbf039c86ec5dfe67308076b3cbd654da"
+    },
+    "Department.csv": {
+      "rows": 5,
+      "sha256": "d56ce4ae9a5e2c3b32a198ff4519d42763c2a09f0a4f62a157b281f105be05ed"
+    },
+    "Dependency.csv": {
+      "rows": 6801,
+      "sha256": "bbd2b391c9c8d7c2737e11027cf6c7d72690ffa8706d9a51cc3c279deb29cd75"
+    },
+    "Employee.csv": {
+      "rows": 1000,
+      "sha256": "9ae8f7e5a89c8474f9aca25c784ed63f51706ba58567f0cf0e78d287596f1bb2"
+    },
+    "Manager.csv": {
+      "rows": 20,
+      "sha256": "39362fc3c3f601a58931c0a2d1451cce689510d920886ebedb08102ab89a902b"
+    },
+    "OffboardingCase.csv": {
+      "rows": 100,
+      "sha256": "e7585211a0e350fea65a907557707d36ed5d76a1e822f31835e86902e204a89e"
+    },
+    "OnboardingCase.csv": {
+      "rows": 1000,
+      "sha256": "efdfbfa117da289a0f7dd0f00bc5edd6241793ddb9746394a897e5b153f58a71"
+    },
+    "Role.csv": {
+      "rows": 5,
+      "sha256": "139722189c0413d3e36e674ed21c2e389c8dfa989d2d7a9887a7387191734079"
+    },
+    "Task.csv": {
+      "rows": 8000,
+      "sha256": "2be539d3ddcf15ce51c21fa74f59c2161d5d7ac2a02b3c87520d1679f5cc8d3d"
+    },
+    "ground_truth.csv": {
+      "rows": 5,
+      "sha256": "66e5d03b14f14e8a9297ea9bf9ff324d40e1587af4b7e503155140f9cc5246d3"
+    }
+  },
+  "identical": true,
+  "metadata_policy": "This report is written after comparison and is excluded from its own checksums.",
+  "mode": "full",
+  "second_run": {
+    "AccessGrant.csv": {
+      "rows": 1500,
+      "sha256": "8e10b926eaabb770dc3cd9f2159fb41e4e8a559f0ddf3643ad83bf6a5dcda8a5"
+    },
+    "AccessRole.csv": {
+      "rows": 4,
+      "sha256": "95ff1eb9ce4e5f48a89bb5c5c2c118e91109498ba6dc1eb4473dfeb6a19e80c8"
+    },
+    "Asset.csv": {
+      "rows": 1200,
+      "sha256": "2d0411bc4d5a51d6a6bff1bf6dce63af07bd289a76372681c54d92f522db3bc7"
+    },
+    "AssetAssignment.csv": {
+      "rows": 901,
+      "sha256": "da594a97d95e677983bc4a896dc7f5a9245a6a5cfd00379cc38bd88d5bf02bed"
+    },
+    "AuditEvent.csv": {
+      "rows": 11039,
+      "sha256": "20373b5f08c61bb7557d545f911e65acbf039c86ec5dfe67308076b3cbd654da"
+    },
+    "Department.csv": {
+      "rows": 5,
+      "sha256": "d56ce4ae9a5e2c3b32a198ff4519d42763c2a09f0a4f62a157b281f105be05ed"
+    },
+    "Dependency.csv": {
+      "rows": 6801,
+      "sha256": "bbd2b391c9c8d7c2737e11027cf6c7d72690ffa8706d9a51cc3c279deb29cd75"
+    },
+    "Employee.csv": {
+      "rows": 1000,
+      "sha256": "9ae8f7e5a89c8474f9aca25c784ed63f51706ba58567f0cf0e78d287596f1bb2"
+    },
+    "Manager.csv": {
+      "rows": 20,
+      "sha256": "39362fc3c3f601a58931c0a2d1451cce689510d920886ebedb08102ab89a902b"
+    },
+    "OffboardingCase.csv": {
+      "rows": 100,
+      "sha256": "e7585211a0e350fea65a907557707d36ed5d76a1e822f31835e86902e204a89e"
+    },
+    "OnboardingCase.csv": {
+      "rows": 1000,
+      "sha256": "efdfbfa117da289a0f7dd0f00bc5edd6241793ddb9746394a897e5b153f58a71"
+    },
+    "Role.csv": {
+      "rows": 5,
+      "sha256": "139722189c0413d3e36e674ed21c2e389c8dfa989d2d7a9887a7387191734079"
+    },
+    "Task.csv": {
+      "rows": 8000,
+      "sha256": "2be539d3ddcf15ce51c21fa74f59c2161d5d7ac2a02b3c87520d1679f5cc8d3d"
+    },
+    "ground_truth.csv": {
+      "rows": 5,
+      "sha256": "66e5d03b14f14e8a9297ea9bf9ff324d40e1587af4b7e503155140f9cc5246d3"
+    }
+  },
+  "seed": 20261022
+}

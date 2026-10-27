@@ -1,0 +1,48 @@
+{
+  "access_grant_count": 1500,
+  "access_policy_violation_count": 2,
+  "active_grants_linked_to_terminated_employees": 1,
+  "anomaly_detection": {
+    "f1": 1.0,
+    "false_negative": 0,
+    "false_positive": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "true_positive": 5,
+    "undefined_denominator_policy": "null when a denominator is zero"
+  },
+  "asset_count": 1200,
+  "asset_recovery_completion_rate": 0.9888888888888889,
+  "audit_coverage_rate": 1.0,
+  "average_onboarding_completion_days": 14.467239527389903,
+  "duplicate_asset_assignment_count": 1,
+  "employee_count": 1000,
+  "entity_record_counts": {
+    "AccessGrant": 1500,
+    "AccessRole": 4,
+    "Asset": 1200,
+    "AssetAssignment": 901,
+    "AuditEvent": 11039,
+    "Department": 5,
+    "Dependency": 6801,
+    "Employee": 1000,
+    "Manager": 20,
+    "OffboardingCase": 100,
+    "OnboardingCase": 1000,
+    "Role": 5,
+    "Task": 8000
+  },
+  "metric_denominators": {
+    "asset_recovery_completion_rate": "returned historical asset assignments for terminated employees / all historical asset assignments for terminated employees",
+    "audit_coverage_rate": "completed tasks, onboarding cases, and offboarding cases with an entity audit event / all completed tasks and cases",
+    "average_onboarding_completion_days": "mean completed_at minus opened_at, in days, over completed cases",
+    "offboarding_completion_rate": "completed offboarding cases / all offboarding cases",
+    "onboarding_completion_rate": "completed onboarding cases / all onboarding cases",
+    "overdue_task_rate": "overdue or unfinished past-due tasks / all tasks (fixed reporting cutoff 2027-01-01 UTC)"
+  },
+  "offboarding_completion_rate": 1.0,
+  "onboarding_completion_rate": 0.931,
+  "overdue_task_rate": 0.069,
+  "task_count": 8000,
+  "task_dependency_violation_count": 1
+}

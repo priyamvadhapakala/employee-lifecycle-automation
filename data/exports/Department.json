@@ -1,0 +1,32 @@
+[
+  {
+    "department_id":"DEPT-001",
+    "department_name":"People Operations",
+    "cost_center":"CC-100",
+    "created_at":"2026-01-01T00:00:00Z"
+  },
+  {
+    "department_id":"DEPT-002",
+    "department_name":"Engineering",
+    "cost_center":"CC-200",
+    "created_at":"2026-01-01T00:00:00Z"
+  },
+  {
+    "department_id":"DEPT-003",
+    "department_name":"Finance",
+    "cost_center":"CC-300",
+    "created_at":"2026-01-01T00:00:00Z"
+  },
+  {
+    "department_id":"DEPT-004",
+    "department_name":"Customer Operations",
+    "cost_center":"CC-400",
+    "created_at":"2026-01-01T00:00:00Z"
+  },
+  {
+    "department_id":"DEPT-005",
+    "department_name":"Facilities",
+    "cost_center":"CC-500",
+    "created_at":"2026-01-01T00:00:00Z"
+  }
+]

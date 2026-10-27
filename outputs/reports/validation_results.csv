@@ -1,0 +1,39 @@
+check_id,check_name,passed,failed,severity,entity_type,entity_id,affected_entity,affected_record_id,explanation,expected_result,actual_result
+PK_UNIQUE,Primary key uniqueness,True,0,info,Department,,Department,,No violations found.,rule satisfied,no violations
+ID_FORMAT,Deterministic ID format,True,0,info,Department,,Department,,No violations found.,rule satisfied,no violations
+PK_UNIQUE,Primary key uniqueness,True,0,info,Role,,Role,,No violations found.,rule satisfied,no violations
+ID_FORMAT,Deterministic ID format,True,0,info,Role,,Role,,No violations found.,rule satisfied,no violations
+PK_UNIQUE,Primary key uniqueness,True,0,info,Manager,,Manager,,No violations found.,rule satisfied,no violations
+ID_FORMAT,Deterministic ID format,True,0,info,Manager,,Manager,,No violations found.,rule satisfied,no violations
+PK_UNIQUE,Primary key uniqueness,True,0,info,Employee,,Employee,,No violations found.,rule satisfied,no violations
+ID_FORMAT,Deterministic ID format,True,0,info,Employee,,Employee,,No violations found.,rule satisfied,no violations
+PK_UNIQUE,Primary key uniqueness,True,0,info,OnboardingCase,,OnboardingCase,,No violations found.,rule satisfied,no violations
+ID_FORMAT,Deterministic ID format,True,0,info,OnboardingCase,,OnboardingCase,,No violations found.,rule satisfied,no violations
+PK_UNIQUE,Primary key uniqueness,True,0,info,Task,,Task,,No violations found.,rule satisfied,no violations
+ID_FORMAT,Deterministic ID format,True,0,info,Task,,Task,,No violations found.,rule satisfied,no violations
+PK_UNIQUE,Primary key uniqueness,True,0,info,Dependency,,Dependency,,No violations found.,rule satisfied,no violations
+ID_FORMAT,Deterministic ID format,True,0,info,Dependency,,Dependency,,No violations found.,rule satisfied,no violations
+PK_UNIQUE,Primary key uniqueness,True,0,info,AccessRole,,AccessRole,,No violations found.,rule satisfied,no violations
+ID_FORMAT,Deterministic ID format,True,0,info,AccessRole,,AccessRole,,No violations found.,rule satisfied,no violations
+PK_UNIQUE,Primary key uniqueness,True,0,info,AccessGrant,,AccessGrant,,No violations found.,rule satisfied,no violations
+ID_FORMAT,Deterministic ID format,True,0,info,AccessGrant,,AccessGrant,,No violations found.,rule satisfied,no violations
+PK_UNIQUE,Primary key uniqueness,True,0,info,Asset,,Asset,,No violations found.,rule satisfied,no violations
+ID_FORMAT,Deterministic ID format,True,0,info,Asset,,Asset,,No violations found.,rule satisfied,no violations
+PK_UNIQUE,Primary key uniqueness,True,0,info,AssetAssignment,,AssetAssignment,,No violations found.,rule satisfied,no violations
+ID_FORMAT,Deterministic ID format,True,0,info,AssetAssignment,,AssetAssignment,,No violations found.,rule satisfied,no violations
+PK_UNIQUE,Primary key uniqueness,True,0,info,OffboardingCase,,OffboardingCase,,No violations found.,rule satisfied,no violations
+ID_FORMAT,Deterministic ID format,True,0,info,OffboardingCase,,OffboardingCase,,No violations found.,rule satisfied,no violations
+PK_UNIQUE,Primary key uniqueness,True,0,info,AuditEvent,,AuditEvent,,No violations found.,rule satisfied,no violations
+ID_FORMAT,Deterministic ID format,True,0,info,AuditEvent,,AuditEvent,,No violations found.,rule satisfied,no violations
+FK_INTEGRITY,Foreign key integrity,True,0,info,all entities,,all entities,,No violations found.,rule satisfied,no violations
+TASK_CASE_REFERENCE,Task belongs to exactly one case,True,0,info,Task,,Task,,No violations found.,rule satisfied,no violations
+ACCESS_POLICY,Access policy compliance,False,1,critical,AccessGrant,GRANT-EMP-000001-001,AccessGrant,GRANT-EMP-000001-001,active grant belongs to terminated employee,rule satisfied,violation
+ACCESS_POLICY,Access policy compliance,False,1,high,AccessGrant,GRANT-EMP-000002-001,AccessGrant,GRANT-EMP-000002-001,grant effective before employee start,rule satisfied,violation
+TASK_CYCLE,Task dependency graph is acyclic,False,1,high,Dependency,TASK-ONB-2026-000001-001,Dependency,TASK-ONB-2026-000001-001,Cycle detected: TASK-ONB-2026-000001-001 -> TASK-ONB-2026-000001-002 -> TASK-ONB-2026-000001-001,rule satisfied,violation
+ASSET_DUPLICATE,No duplicate active asset assignments,False,1,high,Asset,AST-000001,Asset,AST-000001,Asset is actively assigned to multiple employees.,rule satisfied,violation
+ASSET_RECOVERY,Asset recovery reconciliation,False,1,high,Asset,AST-000001,Asset,AST-000001,Recovered asset assignment remains marked assigned.,rule satisfied,violation
+GROUND_TRUTH_REFERENCE,Ground-truth references existing records,True,0,info,GroundTruth,,GroundTruth,,No violations found.,rule satisfied,no violations
+ROW_COUNTS,Required employees row count,True,0,info,Employee,,Employee,,No violations found.,rule satisfied,1000
+ROW_COUNTS,Required tasks row count,True,0,info,Task,,Task,,No violations found.,rule satisfied,8000
+ROW_COUNTS,Required access_grants row count,True,0,info,AccessGrant,,AccessGrant,,No violations found.,rule satisfied,1500
+ROW_COUNTS,Required assets row count,True,0,info,Asset,,Asset,,No violations found.,rule satisfied,1200

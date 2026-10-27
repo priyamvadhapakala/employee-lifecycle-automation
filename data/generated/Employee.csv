@@ -1,0 +1,1001 @@
+employee_id,first_name,last_name,email,department_id,role_id,manager_id,employment_type,employment_status,hire_date,planned_start_date,actual_start_date,termination_date,location,created_at
+EMP-000001,Employee0001,Synthetic00,employee0001@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-01-27,2026-02-10,2026-02-13,2026-05-14,New York,2026-01-27T09:00:00Z
+EMP-000002,Employee0002,Synthetic01,employee0002@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-01-29,2026-02-12,2026-02-12,,London,2026-01-29T09:00:00Z
+EMP-000003,Employee0003,Synthetic02,employee0003@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-04-24,2026-05-08,2026-05-08,,Bengaluru,2026-04-24T09:00:00Z
+EMP-000004,Employee0004,Synthetic03,employee0004@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2025-12-18,2026-01-01,2026-01-01,,Remote,2025-12-18T09:00:00Z
+EMP-000005,Employee0005,Synthetic04,employee0005@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-07-13,2026-07-27,2026-07-27,,New York,2026-07-13T09:00:00Z
+EMP-000006,Employee0006,Synthetic05,employee0006@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-02-05,2026-02-19,2026-02-19,,London,2026-02-05T09:00:00Z
+EMP-000007,Employee0007,Synthetic06,employee0007@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-08-17,2026-08-31,2026-08-31,,Bengaluru,2026-08-17T09:00:00Z
+EMP-000008,Employee0008,Synthetic07,employee0008@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-03-05,2026-03-19,2026-03-19,,Remote,2026-03-05T09:00:00Z
+EMP-000009,Employee0009,Synthetic08,employee0009@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-08-23,2026-09-06,2026-09-06,,New York,2026-08-23T09:00:00Z
+EMP-000010,Employee0010,Synthetic09,employee0010@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-01-29,2026-02-12,2026-02-20,,London,2026-01-29T09:00:00Z
+EMP-000011,Employee0011,Synthetic10,employee0011@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-03-21,2026-04-04,2026-04-04,2026-07-03,Bengaluru,2026-03-21T09:00:00Z
+EMP-000012,Employee0012,Synthetic11,employee0012@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-03-10,2026-03-24,2026-03-24,,Remote,2026-03-10T09:00:00Z
+EMP-000013,Employee0013,Synthetic12,employee0013@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2025-12-19,2026-01-02,2026-01-02,,New York,2025-12-19T09:00:00Z
+EMP-000014,Employee0014,Synthetic13,employee0014@example.test,DEPT-004,ROLE-004,MGR-014,full_time,pending,2026-07-29,2026-08-12,,,London,2026-07-29T09:00:00Z
+EMP-000015,Employee0015,Synthetic14,employee0015@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-07-06,2026-07-20,2026-07-20,,Bengaluru,2026-07-06T09:00:00Z
+EMP-000016,Employee0016,Synthetic15,employee0016@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-05-04,2026-05-18,2026-05-18,,Remote,2026-05-04T09:00:00Z
+EMP-000017,Employee0017,Synthetic16,employee0017@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-01-11,2026-01-25,2026-01-25,,New York,2026-01-11T09:00:00Z
+EMP-000018,Employee0018,Synthetic17,employee0018@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-02-03,2026-02-17,2026-02-17,,London,2026-02-03T09:00:00Z
+EMP-000019,Employee0019,Synthetic18,employee0019@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2026-05-02,2026-05-16,2026-05-17,,Bengaluru,2026-05-02T09:00:00Z
+EMP-000020,Employee0020,Synthetic19,employee0020@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-04-01,2026-04-15,2026-04-15,,Remote,2026-04-01T09:00:00Z
+EMP-000021,Employee0021,Synthetic20,employee0021@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-06-16,2026-06-30,2026-06-30,2026-09-28,New York,2026-06-16T09:00:00Z
+EMP-000022,Employee0022,Synthetic21,employee0022@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-08-10,2026-08-24,2026-08-24,,London,2026-08-10T09:00:00Z
+EMP-000023,Employee0023,Synthetic22,employee0023@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-07-25,2026-08-08,2026-08-08,,Bengaluru,2026-07-25T09:00:00Z
+EMP-000024,Employee0024,Synthetic23,employee0024@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-01-06,2026-01-20,2026-01-20,,Remote,2026-01-06T09:00:00Z
+EMP-000025,Employee0025,Synthetic24,employee0025@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-03-23,2026-04-06,2026-04-06,,New York,2026-03-23T09:00:00Z
+EMP-000026,Employee0026,Synthetic25,employee0026@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-03-10,2026-03-24,2026-03-24,,London,2026-03-10T09:00:00Z
+EMP-000027,Employee0027,Synthetic26,employee0027@example.test,DEPT-002,ROLE-002,MGR-007,full_time,pending,2026-10-08,2026-10-22,,,Bengaluru,2026-10-08T09:00:00Z
+EMP-000028,Employee0028,Synthetic27,employee0028@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-07-28,2026-08-11,2026-08-18,,Remote,2026-07-28T09:00:00Z
+EMP-000029,Employee0029,Synthetic28,employee0029@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-07-05,2026-07-19,2026-07-19,,New York,2026-07-05T09:00:00Z
+EMP-000030,Employee0030,Synthetic29,employee0030@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-10-11,2026-10-25,2026-10-25,,London,2026-10-11T09:00:00Z
+EMP-000031,Employee0031,Synthetic30,employee0031@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-07-15,2026-07-29,2026-07-29,2026-10-27,Bengaluru,2026-07-15T09:00:00Z
+EMP-000032,Employee0032,Synthetic31,employee0032@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-06-24,2026-07-08,2026-07-08,,Remote,2026-06-24T09:00:00Z
+EMP-000033,Employee0033,Synthetic32,employee0033@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-09-24,2026-10-08,2026-10-08,,New York,2026-09-24T09:00:00Z
+EMP-000034,Employee0034,Synthetic33,employee0034@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-04-14,2026-04-28,2026-04-28,,London,2026-04-14T09:00:00Z
+EMP-000035,Employee0035,Synthetic34,employee0035@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-03-15,2026-03-29,2026-03-29,,Bengaluru,2026-03-15T09:00:00Z
+EMP-000036,Employee0036,Synthetic35,employee0036@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-09-22,2026-10-06,2026-10-06,,Remote,2026-09-22T09:00:00Z
+EMP-000037,Employee0037,Synthetic36,employee0037@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-01-24,2026-02-07,2026-02-09,,New York,2026-01-24T09:00:00Z
+EMP-000038,Employee0038,Synthetic37,employee0038@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-01-14,2026-01-28,2026-01-28,,London,2026-01-14T09:00:00Z
+EMP-000039,Employee0039,Synthetic38,employee0039@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-08-01,2026-08-15,2026-08-15,,Bengaluru,2026-08-01T09:00:00Z
+EMP-000040,Employee0040,Synthetic39,employee0040@example.test,DEPT-005,ROLE-005,MGR-020,full_time,pending,2026-01-27,2026-02-10,,,Remote,2026-01-27T09:00:00Z
+EMP-000041,Employee0041,Synthetic40,employee0041@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-10-07,2026-10-21,2026-10-21,2027-01-19,New York,2026-10-07T09:00:00Z
+EMP-000042,Employee0042,Synthetic41,employee0042@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2025-12-20,2026-01-03,2026-01-03,,London,2025-12-20T09:00:00Z
+EMP-000043,Employee0043,Synthetic42,employee0043@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-04-28,2026-05-12,2026-05-12,,Bengaluru,2026-04-28T09:00:00Z
+EMP-000044,Employee0044,Synthetic43,employee0044@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-09-04,2026-09-18,2026-09-18,,Remote,2026-09-04T09:00:00Z
+EMP-000045,Employee0045,Synthetic44,employee0045@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-01-24,2026-02-07,2026-02-07,,New York,2026-01-24T09:00:00Z
+EMP-000046,Employee0046,Synthetic45,employee0046@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-08-05,2026-08-19,2026-08-22,,London,2026-08-05T09:00:00Z
+EMP-000047,Employee0047,Synthetic46,employee0047@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-07-30,2026-08-13,2026-08-13,,Bengaluru,2026-07-30T09:00:00Z
+EMP-000048,Employee0048,Synthetic47,employee0048@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-06-16,2026-06-30,2026-06-30,,Remote,2026-06-16T09:00:00Z
+EMP-000049,Employee0049,Synthetic48,employee0049@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-08-17,2026-08-31,2026-08-31,,New York,2026-08-17T09:00:00Z
+EMP-000050,Employee0050,Synthetic49,employee0050@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-03-20,2026-04-03,2026-04-03,,London,2026-03-20T09:00:00Z
+EMP-000051,Employee0051,Synthetic50,employee0051@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-04-13,2026-04-27,2026-04-27,2026-07-26,Bengaluru,2026-04-13T09:00:00Z
+EMP-000052,Employee0052,Synthetic51,employee0052@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-07-10,2026-07-24,2026-07-24,,Remote,2026-07-10T09:00:00Z
+EMP-000053,Employee0053,Synthetic52,employee0053@example.test,DEPT-003,ROLE-003,MGR-013,full_time,pending,2026-03-02,2026-03-16,,,New York,2026-03-02T09:00:00Z
+EMP-000054,Employee0054,Synthetic53,employee0054@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-02-16,2026-03-02,2026-03-02,,London,2026-02-16T09:00:00Z
+EMP-000055,Employee0055,Synthetic54,employee0055@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2026-04-12,2026-04-26,2026-04-30,,Bengaluru,2026-04-12T09:00:00Z
+EMP-000056,Employee0056,Synthetic55,employee0056@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-04-29,2026-05-13,2026-05-13,,Remote,2026-04-29T09:00:00Z
+EMP-000057,Employee0057,Synthetic56,employee0057@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-03-30,2026-04-13,2026-04-13,,New York,2026-03-30T09:00:00Z
+EMP-000058,Employee0058,Synthetic57,employee0058@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-07-18,2026-08-01,2026-08-01,,London,2026-07-18T09:00:00Z
+EMP-000059,Employee0059,Synthetic58,employee0059@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-05-20,2026-06-03,2026-06-03,,Bengaluru,2026-05-20T09:00:00Z
+EMP-000060,Employee0060,Synthetic59,employee0060@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-07-07,2026-07-21,2026-07-21,,Remote,2026-07-07T09:00:00Z
+EMP-000061,Employee0061,Synthetic60,employee0061@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-04-10,2026-04-24,2026-04-24,2026-07-23,New York,2026-04-10T09:00:00Z
+EMP-000062,Employee0062,Synthetic61,employee0062@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2025-12-25,2026-01-08,2026-01-08,,London,2025-12-25T09:00:00Z
+EMP-000063,Employee0063,Synthetic62,employee0063@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-08-13,2026-08-27,2026-08-27,,Bengaluru,2026-08-13T09:00:00Z
+EMP-000064,Employee0064,Synthetic63,employee0064@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-01-12,2026-01-26,2026-02-02,,Remote,2026-01-12T09:00:00Z
+EMP-000065,Employee0065,Synthetic64,employee0065@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-04-15,2026-04-29,2026-04-29,,New York,2026-04-15T09:00:00Z
+EMP-000066,Employee0066,Synthetic65,employee0066@example.test,DEPT-001,ROLE-001,MGR-006,full_time,pending,2026-04-06,2026-04-20,,,London,2026-04-06T09:00:00Z
+EMP-000067,Employee0067,Synthetic66,employee0067@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-09-23,2026-10-07,2026-10-07,,Bengaluru,2026-09-23T09:00:00Z
+EMP-000068,Employee0068,Synthetic67,employee0068@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-01-08,2026-01-22,2026-01-22,,Remote,2026-01-08T09:00:00Z
+EMP-000069,Employee0069,Synthetic68,employee0069@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-03-26,2026-04-09,2026-04-09,,New York,2026-03-26T09:00:00Z
+EMP-000070,Employee0070,Synthetic69,employee0070@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-07-26,2026-08-09,2026-08-09,,London,2026-07-26T09:00:00Z
+EMP-000071,Employee0071,Synthetic70,employee0071@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-06-05,2026-06-19,2026-06-19,2026-09-17,Bengaluru,2026-06-05T09:00:00Z
+EMP-000072,Employee0072,Synthetic71,employee0072@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-04-13,2026-04-27,2026-04-27,,Remote,2026-04-13T09:00:00Z
+EMP-000073,Employee0073,Synthetic72,employee0073@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-05-09,2026-05-23,2026-05-31,,New York,2026-05-09T09:00:00Z
+EMP-000074,Employee0074,Synthetic73,employee0074@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2025-12-25,2026-01-08,2026-01-08,,London,2025-12-25T09:00:00Z
+EMP-000075,Employee0075,Synthetic74,employee0075@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2025-12-19,2026-01-02,2026-01-02,,Bengaluru,2025-12-19T09:00:00Z
+EMP-000076,Employee0076,Synthetic75,employee0076@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-01-04,2026-01-18,2026-01-18,,Remote,2026-01-04T09:00:00Z
+EMP-000077,Employee0077,Synthetic76,employee0077@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-01-08,2026-01-22,2026-01-22,,New York,2026-01-08T09:00:00Z
+EMP-000078,Employee0078,Synthetic77,employee0078@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-02-20,2026-03-06,2026-03-06,,London,2026-02-20T09:00:00Z
+EMP-000079,Employee0079,Synthetic78,employee0079@example.test,DEPT-004,ROLE-004,MGR-019,contractor,pending,2026-04-15,2026-04-29,,,Bengaluru,2026-04-15T09:00:00Z
+EMP-000080,Employee0080,Synthetic79,employee0080@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-06-29,2026-07-13,2026-07-13,,Remote,2026-06-29T09:00:00Z
+EMP-000081,Employee0081,Synthetic80,employee0081@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-03-02,2026-03-16,2026-03-16,2026-06-14,New York,2026-03-02T09:00:00Z
+EMP-000082,Employee0082,Synthetic81,employee0082@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-05-11,2026-05-25,2026-05-27,,London,2026-05-11T09:00:00Z
+EMP-000083,Employee0083,Synthetic82,employee0083@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-05-01,2026-05-15,2026-05-15,,Bengaluru,2026-05-01T09:00:00Z
+EMP-000084,Employee0084,Synthetic83,employee0084@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-09-23,2026-10-07,2026-10-07,,Remote,2026-09-23T09:00:00Z
+EMP-000085,Employee0085,Synthetic84,employee0085@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-04-03,2026-04-17,2026-04-17,,New York,2026-04-03T09:00:00Z
+EMP-000086,Employee0086,Synthetic85,employee0086@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-01-25,2026-02-08,2026-02-08,,London,2026-01-25T09:00:00Z
+EMP-000087,Employee0087,Synthetic86,employee0087@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-02-03,2026-02-17,2026-02-17,,Bengaluru,2026-02-03T09:00:00Z
+EMP-000088,Employee0088,Synthetic87,employee0088@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-09-03,2026-09-17,2026-09-17,,Remote,2026-09-03T09:00:00Z
+EMP-000089,Employee0089,Synthetic88,employee0089@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-03-10,2026-03-24,2026-03-24,,New York,2026-03-10T09:00:00Z
+EMP-000090,Employee0090,Synthetic89,employee0090@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-06-02,2026-06-16,2026-06-16,,London,2026-06-02T09:00:00Z
+EMP-000091,Employee0091,Synthetic90,employee0091@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-02-21,2026-03-07,2026-03-13,2026-06-11,Bengaluru,2026-02-21T09:00:00Z
+EMP-000092,Employee0092,Synthetic91,employee0092@example.test,DEPT-002,ROLE-002,MGR-012,full_time,pending,2026-05-15,2026-05-29,,,Remote,2026-05-15T09:00:00Z
+EMP-000093,Employee0093,Synthetic92,employee0093@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-02-21,2026-03-07,2026-03-07,,New York,2026-02-21T09:00:00Z
+EMP-000094,Employee0094,Synthetic93,employee0094@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2025-12-29,2026-01-12,2026-01-12,,London,2025-12-29T09:00:00Z
+EMP-000095,Employee0095,Synthetic94,employee0095@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-01-22,2026-02-05,2026-02-05,,Bengaluru,2026-01-22T09:00:00Z
+EMP-000096,Employee0096,Synthetic95,employee0096@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-01-17,2026-01-31,2026-01-31,,Remote,2026-01-17T09:00:00Z
+EMP-000097,Employee0097,Synthetic96,employee0097@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-03-05,2026-03-19,2026-03-19,,New York,2026-03-05T09:00:00Z
+EMP-000098,Employee0098,Synthetic00,employee0098@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-05-10,2026-05-24,2026-05-24,,London,2026-05-10T09:00:00Z
+EMP-000099,Employee0099,Synthetic01,employee0099@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-04-18,2026-05-02,2026-05-02,,Bengaluru,2026-04-18T09:00:00Z
+EMP-000100,Employee0100,Synthetic02,employee0100@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-03-25,2026-04-08,2026-04-11,,Remote,2026-03-25T09:00:00Z
+EMP-000101,Employee0101,Synthetic03,employee0101@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-07-05,2026-07-19,2026-07-19,2026-10-17,New York,2026-07-05T09:00:00Z
+EMP-000102,Employee0102,Synthetic04,employee0102@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-01-04,2026-01-18,2026-01-18,,London,2026-01-04T09:00:00Z
+EMP-000103,Employee0103,Synthetic05,employee0103@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-03-01,2026-03-15,2026-03-15,,Bengaluru,2026-03-01T09:00:00Z
+EMP-000104,Employee0104,Synthetic06,employee0104@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-05-02,2026-05-16,2026-05-16,,Remote,2026-05-02T09:00:00Z
+EMP-000105,Employee0105,Synthetic07,employee0105@example.test,DEPT-005,ROLE-005,MGR-005,full_time,pending,2026-03-26,2026-04-09,,,New York,2026-03-26T09:00:00Z
+EMP-000106,Employee0106,Synthetic08,employee0106@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-06-30,2026-07-14,2026-07-14,,London,2026-06-30T09:00:00Z
+EMP-000107,Employee0107,Synthetic09,employee0107@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2025-12-21,2026-01-04,2026-01-04,,Bengaluru,2025-12-21T09:00:00Z
+EMP-000108,Employee0108,Synthetic10,employee0108@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-01-27,2026-02-10,2026-02-10,,Remote,2026-01-27T09:00:00Z
+EMP-000109,Employee0109,Synthetic11,employee0109@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-01-15,2026-01-29,2026-02-01,,New York,2026-01-15T09:00:00Z
+EMP-000110,Employee0110,Synthetic12,employee0110@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-06-18,2026-07-02,2026-07-02,,London,2026-06-18T09:00:00Z
+EMP-000111,Employee0111,Synthetic13,employee0111@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-01-08,2026-01-22,2026-01-22,2026-04-22,Bengaluru,2026-01-08T09:00:00Z
+EMP-000112,Employee0112,Synthetic14,employee0112@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-07-25,2026-08-08,2026-08-08,,Remote,2026-07-25T09:00:00Z
+EMP-000113,Employee0113,Synthetic15,employee0113@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-03-04,2026-03-18,2026-03-18,,New York,2026-03-04T09:00:00Z
+EMP-000114,Employee0114,Synthetic16,employee0114@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-02-05,2026-02-19,2026-02-19,,London,2026-02-05T09:00:00Z
+EMP-000115,Employee0115,Synthetic17,employee0115@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2025-12-31,2026-01-14,2026-01-14,,Bengaluru,2025-12-31T09:00:00Z
+EMP-000116,Employee0116,Synthetic18,employee0116@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-10-04,2026-10-18,2026-10-18,,Remote,2026-10-04T09:00:00Z
+EMP-000117,Employee0117,Synthetic19,employee0117@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-02-13,2026-02-27,2026-02-27,,New York,2026-02-13T09:00:00Z
+EMP-000118,Employee0118,Synthetic20,employee0118@example.test,DEPT-003,ROLE-003,MGR-018,full_time,pending,2026-02-22,2026-03-08,,,London,2026-02-22T09:00:00Z
+EMP-000119,Employee0119,Synthetic21,employee0119@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-02-02,2026-02-16,2026-02-16,,Bengaluru,2026-02-02T09:00:00Z
+EMP-000120,Employee0120,Synthetic22,employee0120@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-10-09,2026-10-23,2026-10-23,,Remote,2026-10-09T09:00:00Z
+EMP-000121,Employee0121,Synthetic23,employee0121@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-02-01,2026-02-15,2026-02-15,2026-05-16,New York,2026-02-01T09:00:00Z
+EMP-000122,Employee0122,Synthetic24,employee0122@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-02-22,2026-03-08,2026-03-08,,London,2026-02-22T09:00:00Z
+EMP-000123,Employee0123,Synthetic25,employee0123@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-07-22,2026-08-05,2026-08-05,,Bengaluru,2026-07-22T09:00:00Z
+EMP-000124,Employee0124,Synthetic26,employee0124@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-06-19,2026-07-03,2026-07-03,,Remote,2026-06-19T09:00:00Z
+EMP-000125,Employee0125,Synthetic27,employee0125@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-01-05,2026-01-19,2026-01-19,,New York,2026-01-05T09:00:00Z
+EMP-000126,Employee0126,Synthetic28,employee0126@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-09-20,2026-10-04,2026-10-04,,London,2026-09-20T09:00:00Z
+EMP-000127,Employee0127,Synthetic29,employee0127@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-03-18,2026-04-01,2026-04-09,,Bengaluru,2026-03-18T09:00:00Z
+EMP-000128,Employee0128,Synthetic30,employee0128@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2025-12-22,2026-01-05,2026-01-05,,Remote,2025-12-22T09:00:00Z
+EMP-000129,Employee0129,Synthetic31,employee0129@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-09-10,2026-09-24,2026-09-24,,New York,2026-09-10T09:00:00Z
+EMP-000130,Employee0130,Synthetic32,employee0130@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-10-06,2026-10-20,2026-10-20,,London,2026-10-06T09:00:00Z
+EMP-000131,Employee0131,Synthetic33,employee0131@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2025-12-24,2026-01-07,2026-01-07,2026-04-07,Bengaluru,2025-12-24T09:00:00Z
+EMP-000132,Employee0132,Synthetic34,employee0132@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-06-14,2026-06-28,2026-06-28,,Remote,2026-06-14T09:00:00Z
+EMP-000133,Employee0133,Synthetic35,employee0133@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-03-25,2026-04-08,2026-04-08,,New York,2026-03-25T09:00:00Z
+EMP-000134,Employee0134,Synthetic36,employee0134@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-06-01,2026-06-15,2026-06-15,,London,2026-06-01T09:00:00Z
+EMP-000135,Employee0135,Synthetic37,employee0135@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-01-19,2026-02-02,2026-02-02,,Bengaluru,2026-01-19T09:00:00Z
+EMP-000136,Employee0136,Synthetic38,employee0136@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-06-13,2026-06-27,2026-07-04,,Remote,2026-06-13T09:00:00Z
+EMP-000137,Employee0137,Synthetic39,employee0137@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-01-10,2026-01-24,2026-01-24,,New York,2026-01-10T09:00:00Z
+EMP-000138,Employee0138,Synthetic40,employee0138@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-07-09,2026-07-23,2026-07-23,,London,2026-07-09T09:00:00Z
+EMP-000139,Employee0139,Synthetic41,employee0139@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2026-08-14,2026-08-28,2026-08-28,,Bengaluru,2026-08-14T09:00:00Z
+EMP-000140,Employee0140,Synthetic42,employee0140@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-04-01,2026-04-15,2026-04-15,,Remote,2026-04-01T09:00:00Z
+EMP-000141,Employee0141,Synthetic43,employee0141@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-09-23,2026-10-07,2026-10-07,2027-01-05,New York,2026-09-23T09:00:00Z
+EMP-000142,Employee0142,Synthetic44,employee0142@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-02-11,2026-02-25,2026-02-25,,London,2026-02-11T09:00:00Z
+EMP-000143,Employee0143,Synthetic45,employee0143@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-02-08,2026-02-22,2026-02-22,,Bengaluru,2026-02-08T09:00:00Z
+EMP-000144,Employee0144,Synthetic46,employee0144@example.test,DEPT-004,ROLE-004,MGR-004,full_time,pending,2026-06-27,2026-07-11,,,Remote,2026-06-27T09:00:00Z
+EMP-000145,Employee0145,Synthetic47,employee0145@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-07-22,2026-08-05,2026-08-06,,New York,2026-07-22T09:00:00Z
+EMP-000146,Employee0146,Synthetic48,employee0146@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-04-05,2026-04-19,2026-04-19,,London,2026-04-05T09:00:00Z
+EMP-000147,Employee0147,Synthetic49,employee0147@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-02-01,2026-02-15,2026-02-15,,Bengaluru,2026-02-01T09:00:00Z
+EMP-000148,Employee0148,Synthetic50,employee0148@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-06-01,2026-06-15,2026-06-15,,Remote,2026-06-01T09:00:00Z
+EMP-000149,Employee0149,Synthetic51,employee0149@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-05-01,2026-05-15,2026-05-15,,New York,2026-05-01T09:00:00Z
+EMP-000150,Employee0150,Synthetic52,employee0150@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-05-06,2026-05-20,2026-05-20,,London,2026-05-06T09:00:00Z
+EMP-000151,Employee0151,Synthetic53,employee0151@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-07-22,2026-08-05,2026-08-05,2026-11-03,Bengaluru,2026-07-22T09:00:00Z
+EMP-000152,Employee0152,Synthetic54,employee0152@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-07-28,2026-08-11,2026-08-11,,Remote,2026-07-28T09:00:00Z
+EMP-000153,Employee0153,Synthetic55,employee0153@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-08-25,2026-09-08,2026-09-08,,New York,2026-08-25T09:00:00Z
+EMP-000154,Employee0154,Synthetic56,employee0154@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-05-05,2026-05-19,2026-05-22,,London,2026-05-05T09:00:00Z
+EMP-000155,Employee0155,Synthetic57,employee0155@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-01-07,2026-01-21,2026-01-21,,Bengaluru,2026-01-07T09:00:00Z
+EMP-000156,Employee0156,Synthetic58,employee0156@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-05-22,2026-06-05,2026-06-05,,Remote,2026-05-22T09:00:00Z
+EMP-000157,Employee0157,Synthetic59,employee0157@example.test,DEPT-002,ROLE-002,MGR-017,contractor,pending,2026-01-18,2026-02-01,,,New York,2026-01-18T09:00:00Z
+EMP-000158,Employee0158,Synthetic60,employee0158@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-01-27,2026-02-10,2026-02-10,,London,2026-01-27T09:00:00Z
+EMP-000159,Employee0159,Synthetic61,employee0159@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-04-27,2026-05-11,2026-05-11,,Bengaluru,2026-04-27T09:00:00Z
+EMP-000160,Employee0160,Synthetic62,employee0160@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-03-09,2026-03-23,2026-03-23,,Remote,2026-03-09T09:00:00Z
+EMP-000161,Employee0161,Synthetic63,employee0161@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-03-29,2026-04-12,2026-04-12,2026-07-11,New York,2026-03-29T09:00:00Z
+EMP-000162,Employee0162,Synthetic64,employee0162@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-01-11,2026-01-25,2026-01-25,,London,2026-01-11T09:00:00Z
+EMP-000163,Employee0163,Synthetic65,employee0163@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-05-08,2026-05-22,2026-05-25,,Bengaluru,2026-05-08T09:00:00Z
+EMP-000164,Employee0164,Synthetic66,employee0164@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-08-10,2026-08-24,2026-08-24,,Remote,2026-08-10T09:00:00Z
+EMP-000165,Employee0165,Synthetic67,employee0165@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-03-04,2026-03-18,2026-03-18,,New York,2026-03-04T09:00:00Z
+EMP-000166,Employee0166,Synthetic68,employee0166@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-09-25,2026-10-09,2026-10-09,,London,2026-09-25T09:00:00Z
+EMP-000167,Employee0167,Synthetic69,employee0167@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-06-03,2026-06-17,2026-06-17,,Bengaluru,2026-06-03T09:00:00Z
+EMP-000168,Employee0168,Synthetic70,employee0168@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-05-04,2026-05-18,2026-05-18,,Remote,2026-05-04T09:00:00Z
+EMP-000169,Employee0169,Synthetic71,employee0169@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-06-20,2026-07-04,2026-07-04,,New York,2026-06-20T09:00:00Z
+EMP-000170,Employee0170,Synthetic72,employee0170@example.test,DEPT-005,ROLE-005,MGR-010,full_time,pending,2026-04-02,2026-04-16,,,London,2026-04-02T09:00:00Z
+EMP-000171,Employee0171,Synthetic73,employee0171@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-09-29,2026-10-13,2026-10-13,2027-01-11,Bengaluru,2026-09-29T09:00:00Z
+EMP-000172,Employee0172,Synthetic74,employee0172@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-02-09,2026-02-23,2026-02-26,,Remote,2026-02-09T09:00:00Z
+EMP-000173,Employee0173,Synthetic75,employee0173@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-07-06,2026-07-20,2026-07-20,,New York,2026-07-06T09:00:00Z
+EMP-000174,Employee0174,Synthetic76,employee0174@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2025-12-31,2026-01-14,2026-01-14,,London,2025-12-31T09:00:00Z
+EMP-000175,Employee0175,Synthetic77,employee0175@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2026-01-21,2026-02-04,2026-02-04,,Bengaluru,2026-01-21T09:00:00Z
+EMP-000176,Employee0176,Synthetic78,employee0176@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-03-22,2026-04-05,2026-04-05,,Remote,2026-03-22T09:00:00Z
+EMP-000177,Employee0177,Synthetic79,employee0177@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-09-24,2026-10-08,2026-10-08,,New York,2026-09-24T09:00:00Z
+EMP-000178,Employee0178,Synthetic80,employee0178@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-07-20,2026-08-03,2026-08-03,,London,2026-07-20T09:00:00Z
+EMP-000179,Employee0179,Synthetic81,employee0179@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-04-06,2026-04-20,2026-04-20,,Bengaluru,2026-04-06T09:00:00Z
+EMP-000180,Employee0180,Synthetic82,employee0180@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-04-21,2026-05-05,2026-05-05,,Remote,2026-04-21T09:00:00Z
+EMP-000181,Employee0181,Synthetic83,employee0181@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-03-29,2026-04-12,2026-04-15,2026-07-14,New York,2026-03-29T09:00:00Z
+EMP-000182,Employee0182,Synthetic84,employee0182@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-02-19,2026-03-05,2026-03-05,,London,2026-02-19T09:00:00Z
+EMP-000183,Employee0183,Synthetic85,employee0183@example.test,DEPT-003,ROLE-003,MGR-003,full_time,pending,2026-08-24,2026-09-07,,,Bengaluru,2026-08-24T09:00:00Z
+EMP-000184,Employee0184,Synthetic86,employee0184@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-06-25,2026-07-09,2026-07-09,,Remote,2026-06-25T09:00:00Z
+EMP-000185,Employee0185,Synthetic87,employee0185@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2025-12-24,2026-01-07,2026-01-07,,New York,2025-12-24T09:00:00Z
+EMP-000186,Employee0186,Synthetic88,employee0186@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-07-25,2026-08-08,2026-08-08,,London,2026-07-25T09:00:00Z
+EMP-000187,Employee0187,Synthetic89,employee0187@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-07-02,2026-07-16,2026-07-16,,Bengaluru,2026-07-02T09:00:00Z
+EMP-000188,Employee0188,Synthetic90,employee0188@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-07-24,2026-08-07,2026-08-07,,Remote,2026-07-24T09:00:00Z
+EMP-000189,Employee0189,Synthetic91,employee0189@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-07-10,2026-07-24,2026-07-24,,New York,2026-07-10T09:00:00Z
+EMP-000190,Employee0190,Synthetic92,employee0190@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-08-30,2026-09-13,2026-09-19,,London,2026-08-30T09:00:00Z
+EMP-000191,Employee0191,Synthetic93,employee0191@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-04-14,2026-04-28,2026-04-28,2026-07-27,Bengaluru,2026-04-14T09:00:00Z
+EMP-000192,Employee0192,Synthetic94,employee0192@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-03-01,2026-03-15,2026-03-15,,Remote,2026-03-01T09:00:00Z
+EMP-000193,Employee0193,Synthetic95,employee0193@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-08-29,2026-09-12,2026-09-12,,New York,2026-08-29T09:00:00Z
+EMP-000194,Employee0194,Synthetic96,employee0194@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-02-09,2026-02-23,2026-02-23,,London,2026-02-09T09:00:00Z
+EMP-000195,Employee0195,Synthetic00,employee0195@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-07-25,2026-08-08,2026-08-08,,Bengaluru,2026-07-25T09:00:00Z
+EMP-000196,Employee0196,Synthetic01,employee0196@example.test,DEPT-001,ROLE-001,MGR-016,full_time,pending,2026-06-17,2026-07-01,,,Remote,2026-06-17T09:00:00Z
+EMP-000197,Employee0197,Synthetic02,employee0197@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-01-29,2026-02-12,2026-02-12,,New York,2026-01-29T09:00:00Z
+EMP-000198,Employee0198,Synthetic03,employee0198@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-06-08,2026-06-22,2026-06-22,,London,2026-06-08T09:00:00Z
+EMP-000199,Employee0199,Synthetic04,employee0199@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2026-01-09,2026-01-23,2026-01-25,,Bengaluru,2026-01-09T09:00:00Z
+EMP-000200,Employee0200,Synthetic05,employee0200@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-08-05,2026-08-19,2026-08-19,,Remote,2026-08-05T09:00:00Z
+EMP-000201,Employee0201,Synthetic06,employee0201@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-10-13,2026-10-27,2026-10-27,2027-01-25,New York,2026-10-13T09:00:00Z
+EMP-000202,Employee0202,Synthetic07,employee0202@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-09-13,2026-09-27,2026-09-27,,London,2026-09-13T09:00:00Z
+EMP-000203,Employee0203,Synthetic08,employee0203@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-09-01,2026-09-15,2026-09-15,,Bengaluru,2026-09-01T09:00:00Z
+EMP-000204,Employee0204,Synthetic09,employee0204@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-08-23,2026-09-06,2026-09-06,,Remote,2026-08-23T09:00:00Z
+EMP-000205,Employee0205,Synthetic10,employee0205@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-09-16,2026-09-30,2026-09-30,,New York,2026-09-16T09:00:00Z
+EMP-000206,Employee0206,Synthetic11,employee0206@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2025-12-31,2026-01-14,2026-01-14,,London,2025-12-31T09:00:00Z
+EMP-000207,Employee0207,Synthetic12,employee0207@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-02-23,2026-03-09,2026-03-09,,Bengaluru,2026-02-23T09:00:00Z
+EMP-000208,Employee0208,Synthetic13,employee0208@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-09-20,2026-10-04,2026-10-05,,Remote,2026-09-20T09:00:00Z
+EMP-000209,Employee0209,Synthetic14,employee0209@example.test,DEPT-004,ROLE-004,MGR-009,full_time,pending,2026-02-04,2026-02-18,,,New York,2026-02-04T09:00:00Z
+EMP-000210,Employee0210,Synthetic15,employee0210@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-05-29,2026-06-12,2026-06-12,,London,2026-05-29T09:00:00Z
+EMP-000211,Employee0211,Synthetic16,employee0211@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-02-04,2026-02-18,2026-02-18,2026-05-19,Bengaluru,2026-02-04T09:00:00Z
+EMP-000212,Employee0212,Synthetic17,employee0212@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-09-23,2026-10-07,2026-10-07,,Remote,2026-09-23T09:00:00Z
+EMP-000213,Employee0213,Synthetic18,employee0213@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-01-03,2026-01-17,2026-01-17,,New York,2026-01-03T09:00:00Z
+EMP-000214,Employee0214,Synthetic19,employee0214@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-06-30,2026-07-14,2026-07-14,,London,2026-06-30T09:00:00Z
+EMP-000215,Employee0215,Synthetic20,employee0215@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-04-14,2026-04-28,2026-04-28,,Bengaluru,2026-04-14T09:00:00Z
+EMP-000216,Employee0216,Synthetic21,employee0216@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2025-12-27,2026-01-10,2026-01-10,,Remote,2025-12-27T09:00:00Z
+EMP-000217,Employee0217,Synthetic22,employee0217@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-10-03,2026-10-17,2026-10-22,,New York,2026-10-03T09:00:00Z
+EMP-000218,Employee0218,Synthetic23,employee0218@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-01-14,2026-01-28,2026-01-28,,London,2026-01-14T09:00:00Z
+EMP-000219,Employee0219,Synthetic24,employee0219@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-01-29,2026-02-12,2026-02-12,,Bengaluru,2026-01-29T09:00:00Z
+EMP-000220,Employee0220,Synthetic25,employee0220@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-04-24,2026-05-08,2026-05-08,,Remote,2026-04-24T09:00:00Z
+EMP-000221,Employee0221,Synthetic26,employee0221@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-04-13,2026-04-27,2026-04-27,2026-07-26,New York,2026-04-13T09:00:00Z
+EMP-000222,Employee0222,Synthetic27,employee0222@example.test,DEPT-002,ROLE-002,MGR-002,full_time,pending,2025-12-29,2026-01-12,,,London,2025-12-29T09:00:00Z
+EMP-000223,Employee0223,Synthetic28,employee0223@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-01-23,2026-02-06,2026-02-06,,Bengaluru,2026-01-23T09:00:00Z
+EMP-000224,Employee0224,Synthetic29,employee0224@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-08-02,2026-08-16,2026-08-16,,Remote,2026-08-02T09:00:00Z
+EMP-000225,Employee0225,Synthetic30,employee0225@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-04-22,2026-05-06,2026-05-06,,New York,2026-04-22T09:00:00Z
+EMP-000226,Employee0226,Synthetic31,employee0226@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-08-19,2026-09-02,2026-09-07,,London,2026-08-19T09:00:00Z
+EMP-000227,Employee0227,Synthetic32,employee0227@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-07-24,2026-08-07,2026-08-07,,Bengaluru,2026-07-24T09:00:00Z
+EMP-000228,Employee0228,Synthetic33,employee0228@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-01-03,2026-01-17,2026-01-17,,Remote,2026-01-03T09:00:00Z
+EMP-000229,Employee0229,Synthetic34,employee0229@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-01-22,2026-02-05,2026-02-05,,New York,2026-01-22T09:00:00Z
+EMP-000230,Employee0230,Synthetic35,employee0230@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-04-20,2026-05-04,2026-05-04,,London,2026-04-20T09:00:00Z
+EMP-000231,Employee0231,Synthetic36,employee0231@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-04-21,2026-05-05,2026-05-05,2026-08-03,Bengaluru,2026-04-21T09:00:00Z
+EMP-000232,Employee0232,Synthetic37,employee0232@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-02-06,2026-02-20,2026-02-20,,Remote,2026-02-06T09:00:00Z
+EMP-000233,Employee0233,Synthetic38,employee0233@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-09-27,2026-10-11,2026-10-11,,New York,2026-09-27T09:00:00Z
+EMP-000234,Employee0234,Synthetic39,employee0234@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-05-06,2026-05-20,2026-05-20,,London,2026-05-06T09:00:00Z
+EMP-000235,Employee0235,Synthetic40,employee0235@example.test,DEPT-005,ROLE-005,MGR-015,contractor,pending,2026-01-18,2026-02-01,,,Bengaluru,2026-01-18T09:00:00Z
+EMP-000236,Employee0236,Synthetic41,employee0236@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-06-19,2026-07-03,2026-07-03,,Remote,2026-06-19T09:00:00Z
+EMP-000237,Employee0237,Synthetic42,employee0237@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-09-30,2026-10-14,2026-10-14,,New York,2026-09-30T09:00:00Z
+EMP-000238,Employee0238,Synthetic43,employee0238@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-06-07,2026-06-21,2026-06-21,,London,2026-06-07T09:00:00Z
+EMP-000239,Employee0239,Synthetic44,employee0239@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-01-16,2026-01-30,2026-01-30,,Bengaluru,2026-01-16T09:00:00Z
+EMP-000240,Employee0240,Synthetic45,employee0240@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-05-22,2026-06-05,2026-06-05,,Remote,2026-05-22T09:00:00Z
+EMP-000241,Employee0241,Synthetic46,employee0241@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-06-20,2026-07-04,2026-07-04,2026-10-02,New York,2026-06-20T09:00:00Z
+EMP-000242,Employee0242,Synthetic47,employee0242@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-03-17,2026-03-31,2026-03-31,,London,2026-03-17T09:00:00Z
+EMP-000243,Employee0243,Synthetic48,employee0243@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-05-04,2026-05-18,2026-05-18,,Bengaluru,2026-05-04T09:00:00Z
+EMP-000244,Employee0244,Synthetic49,employee0244@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-04-28,2026-05-12,2026-05-15,,Remote,2026-04-28T09:00:00Z
+EMP-000245,Employee0245,Synthetic50,employee0245@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-05-31,2026-06-14,2026-06-14,,New York,2026-05-31T09:00:00Z
+EMP-000246,Employee0246,Synthetic51,employee0246@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-04-02,2026-04-16,2026-04-16,,London,2026-04-02T09:00:00Z
+EMP-000247,Employee0247,Synthetic52,employee0247@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-07-02,2026-07-16,2026-07-16,,Bengaluru,2026-07-02T09:00:00Z
+EMP-000248,Employee0248,Synthetic53,employee0248@example.test,DEPT-003,ROLE-003,MGR-008,full_time,pending,2026-10-09,2026-10-23,,,Remote,2026-10-09T09:00:00Z
+EMP-000249,Employee0249,Synthetic54,employee0249@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-08-05,2026-08-19,2026-08-19,,New York,2026-08-05T09:00:00Z
+EMP-000250,Employee0250,Synthetic55,employee0250@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-07-14,2026-07-28,2026-07-28,,London,2026-07-14T09:00:00Z
+EMP-000251,Employee0251,Synthetic56,employee0251@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-04-23,2026-05-07,2026-05-07,2026-08-05,Bengaluru,2026-04-23T09:00:00Z
+EMP-000252,Employee0252,Synthetic57,employee0252@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-05-18,2026-06-01,2026-06-01,,Remote,2026-05-18T09:00:00Z
+EMP-000253,Employee0253,Synthetic58,employee0253@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-08-03,2026-08-17,2026-08-24,,New York,2026-08-03T09:00:00Z
+EMP-000254,Employee0254,Synthetic59,employee0254@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-07-14,2026-07-28,2026-07-28,,London,2026-07-14T09:00:00Z
+EMP-000255,Employee0255,Synthetic60,employee0255@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-07-25,2026-08-08,2026-08-08,,Bengaluru,2026-07-25T09:00:00Z
+EMP-000256,Employee0256,Synthetic61,employee0256@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-02-13,2026-02-27,2026-02-27,,Remote,2026-02-13T09:00:00Z
+EMP-000257,Employee0257,Synthetic62,employee0257@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-03-04,2026-03-18,2026-03-18,,New York,2026-03-04T09:00:00Z
+EMP-000258,Employee0258,Synthetic63,employee0258@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-01-06,2026-01-20,2026-01-20,,London,2026-01-06T09:00:00Z
+EMP-000259,Employee0259,Synthetic64,employee0259@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2026-10-13,2026-10-27,2026-10-27,,Bengaluru,2026-10-13T09:00:00Z
+EMP-000260,Employee0260,Synthetic65,employee0260@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-06-20,2026-07-04,2026-07-04,,Remote,2026-06-20T09:00:00Z
+EMP-000261,Employee0261,Synthetic66,employee0261@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-05-15,2026-05-29,2026-05-29,2026-08-27,New York,2026-05-15T09:00:00Z
+EMP-000262,Employee0262,Synthetic67,employee0262@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-08-27,2026-09-10,2026-09-12,,London,2026-08-27T09:00:00Z
+EMP-000263,Employee0263,Synthetic68,employee0263@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-01-24,2026-02-07,2026-02-07,,Bengaluru,2026-01-24T09:00:00Z
+EMP-000264,Employee0264,Synthetic69,employee0264@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-06-16,2026-06-30,2026-06-30,,Remote,2026-06-16T09:00:00Z
+EMP-000265,Employee0265,Synthetic70,employee0265@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-09-21,2026-10-05,2026-10-05,,New York,2026-09-21T09:00:00Z
+EMP-000266,Employee0266,Synthetic71,employee0266@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-08-23,2026-09-06,2026-09-06,,London,2026-08-23T09:00:00Z
+EMP-000267,Employee0267,Synthetic72,employee0267@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-08-08,2026-08-22,2026-08-22,,Bengaluru,2026-08-08T09:00:00Z
+EMP-000268,Employee0268,Synthetic73,employee0268@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-05-16,2026-05-30,2026-05-30,,Remote,2026-05-16T09:00:00Z
+EMP-000269,Employee0269,Synthetic74,employee0269@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-05-03,2026-05-17,2026-05-17,,New York,2026-05-03T09:00:00Z
+EMP-000270,Employee0270,Synthetic75,employee0270@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2025-12-25,2026-01-08,2026-01-08,,London,2025-12-25T09:00:00Z
+EMP-000271,Employee0271,Synthetic76,employee0271@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-01-14,2026-01-28,2026-01-29,2026-04-29,Bengaluru,2026-01-14T09:00:00Z
+EMP-000272,Employee0272,Synthetic77,employee0272@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2025-12-27,2026-01-10,2026-01-10,,Remote,2025-12-27T09:00:00Z
+EMP-000273,Employee0273,Synthetic78,employee0273@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-08-11,2026-08-25,2026-08-25,,New York,2026-08-11T09:00:00Z
+EMP-000274,Employee0274,Synthetic79,employee0274@example.test,DEPT-004,ROLE-004,MGR-014,full_time,pending,2026-09-17,2026-10-01,,,London,2026-09-17T09:00:00Z
+EMP-000275,Employee0275,Synthetic80,employee0275@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-02-24,2026-03-10,2026-03-10,,Bengaluru,2026-02-24T09:00:00Z
+EMP-000276,Employee0276,Synthetic81,employee0276@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-07-03,2026-07-17,2026-07-17,,Remote,2026-07-03T09:00:00Z
+EMP-000277,Employee0277,Synthetic82,employee0277@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-04-15,2026-04-29,2026-04-29,,New York,2026-04-15T09:00:00Z
+EMP-000278,Employee0278,Synthetic83,employee0278@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-09-16,2026-09-30,2026-09-30,,London,2026-09-16T09:00:00Z
+EMP-000279,Employee0279,Synthetic84,employee0279@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-04-28,2026-05-12,2026-05-12,,Bengaluru,2026-04-28T09:00:00Z
+EMP-000280,Employee0280,Synthetic85,employee0280@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2025-12-24,2026-01-07,2026-01-13,,Remote,2025-12-24T09:00:00Z
+EMP-000281,Employee0281,Synthetic86,employee0281@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-03-04,2026-03-18,2026-03-18,2026-06-16,New York,2026-03-04T09:00:00Z
+EMP-000282,Employee0282,Synthetic87,employee0282@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2025-12-21,2026-01-04,2026-01-04,,London,2025-12-21T09:00:00Z
+EMP-000283,Employee0283,Synthetic88,employee0283@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-10-13,2026-10-27,2026-10-27,,Bengaluru,2026-10-13T09:00:00Z
+EMP-000284,Employee0284,Synthetic89,employee0284@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-05-03,2026-05-17,2026-05-17,,Remote,2026-05-03T09:00:00Z
+EMP-000285,Employee0285,Synthetic90,employee0285@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-05-31,2026-06-14,2026-06-14,,New York,2026-05-31T09:00:00Z
+EMP-000286,Employee0286,Synthetic91,employee0286@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2025-12-19,2026-01-02,2026-01-02,,London,2025-12-19T09:00:00Z
+EMP-000287,Employee0287,Synthetic92,employee0287@example.test,DEPT-002,ROLE-002,MGR-007,full_time,pending,2026-09-13,2026-09-27,,,Bengaluru,2026-09-13T09:00:00Z
+EMP-000288,Employee0288,Synthetic93,employee0288@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-06-01,2026-06-15,2026-06-15,,Remote,2026-06-01T09:00:00Z
+EMP-000289,Employee0289,Synthetic94,employee0289@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-09-22,2026-10-06,2026-10-12,,New York,2026-09-22T09:00:00Z
+EMP-000290,Employee0290,Synthetic95,employee0290@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-01-11,2026-01-25,2026-01-25,,London,2026-01-11T09:00:00Z
+EMP-000291,Employee0291,Synthetic96,employee0291@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-05-10,2026-05-24,2026-05-24,2026-08-22,Bengaluru,2026-05-10T09:00:00Z
+EMP-000292,Employee0292,Synthetic00,employee0292@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-08-30,2026-09-13,2026-09-13,,Remote,2026-08-30T09:00:00Z
+EMP-000293,Employee0293,Synthetic01,employee0293@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-09-18,2026-10-02,2026-10-02,,New York,2026-09-18T09:00:00Z
+EMP-000294,Employee0294,Synthetic02,employee0294@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-02-20,2026-03-06,2026-03-06,,London,2026-02-20T09:00:00Z
+EMP-000295,Employee0295,Synthetic03,employee0295@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2026-01-28,2026-02-11,2026-02-11,,Bengaluru,2026-01-28T09:00:00Z
+EMP-000296,Employee0296,Synthetic04,employee0296@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-02-08,2026-02-22,2026-02-22,,Remote,2026-02-08T09:00:00Z
+EMP-000297,Employee0297,Synthetic05,employee0297@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-04-11,2026-04-25,2026-04-25,,New York,2026-04-11T09:00:00Z
+EMP-000298,Employee0298,Synthetic06,employee0298@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-10-01,2026-10-15,2026-10-22,,London,2026-10-01T09:00:00Z
+EMP-000299,Employee0299,Synthetic07,employee0299@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-01-11,2026-01-25,2026-01-25,,Bengaluru,2026-01-11T09:00:00Z
+EMP-000300,Employee0300,Synthetic08,employee0300@example.test,DEPT-005,ROLE-005,MGR-020,full_time,pending,2026-02-15,2026-03-01,,,Remote,2026-02-15T09:00:00Z
+EMP-000301,Employee0301,Synthetic09,employee0301@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-03-06,2026-03-20,2026-03-20,2026-06-18,New York,2026-03-06T09:00:00Z
+EMP-000302,Employee0302,Synthetic10,employee0302@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-01-30,2026-02-13,2026-02-13,,London,2026-01-30T09:00:00Z
+EMP-000303,Employee0303,Synthetic11,employee0303@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-02-18,2026-03-04,2026-03-04,,Bengaluru,2026-02-18T09:00:00Z
+EMP-000304,Employee0304,Synthetic12,employee0304@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-08-04,2026-08-18,2026-08-18,,Remote,2026-08-04T09:00:00Z
+EMP-000305,Employee0305,Synthetic13,employee0305@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2025-12-22,2026-01-05,2026-01-05,,New York,2025-12-22T09:00:00Z
+EMP-000306,Employee0306,Synthetic14,employee0306@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-08-31,2026-09-14,2026-09-14,,London,2026-08-31T09:00:00Z
+EMP-000307,Employee0307,Synthetic15,employee0307@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-07-07,2026-07-21,2026-07-27,,Bengaluru,2026-07-07T09:00:00Z
+EMP-000308,Employee0308,Synthetic16,employee0308@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-06-18,2026-07-02,2026-07-02,,Remote,2026-06-18T09:00:00Z
+EMP-000309,Employee0309,Synthetic17,employee0309@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-08-10,2026-08-24,2026-08-24,,New York,2026-08-10T09:00:00Z
+EMP-000310,Employee0310,Synthetic18,employee0310@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-04-17,2026-05-01,2026-05-01,,London,2026-04-17T09:00:00Z
+EMP-000311,Employee0311,Synthetic19,employee0311@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-07-05,2026-07-19,2026-07-19,2026-10-17,Bengaluru,2026-07-05T09:00:00Z
+EMP-000312,Employee0312,Synthetic20,employee0312@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-10-03,2026-10-17,2026-10-17,,Remote,2026-10-03T09:00:00Z
+EMP-000313,Employee0313,Synthetic21,employee0313@example.test,DEPT-003,ROLE-003,MGR-013,contractor,pending,2026-07-22,2026-08-05,,,New York,2026-07-22T09:00:00Z
+EMP-000314,Employee0314,Synthetic22,employee0314@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-03-22,2026-04-05,2026-04-05,,London,2026-03-22T09:00:00Z
+EMP-000315,Employee0315,Synthetic23,employee0315@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-09-06,2026-09-20,2026-09-20,,Bengaluru,2026-09-06T09:00:00Z
+EMP-000316,Employee0316,Synthetic24,employee0316@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-09-17,2026-10-01,2026-10-03,,Remote,2026-09-17T09:00:00Z
+EMP-000317,Employee0317,Synthetic25,employee0317@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-08-03,2026-08-17,2026-08-17,,New York,2026-08-03T09:00:00Z
+EMP-000318,Employee0318,Synthetic26,employee0318@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2025-12-18,2026-01-01,2026-01-01,,London,2025-12-18T09:00:00Z
+EMP-000319,Employee0319,Synthetic27,employee0319@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2026-06-24,2026-07-08,2026-07-08,,Bengaluru,2026-06-24T09:00:00Z
+EMP-000320,Employee0320,Synthetic28,employee0320@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-08-23,2026-09-06,2026-09-06,,Remote,2026-08-23T09:00:00Z
+EMP-000321,Employee0321,Synthetic29,employee0321@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-07-29,2026-08-12,2026-08-12,2026-11-10,New York,2026-07-29T09:00:00Z
+EMP-000322,Employee0322,Synthetic30,employee0322@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-08-20,2026-09-03,2026-09-03,,London,2026-08-20T09:00:00Z
+EMP-000323,Employee0323,Synthetic31,employee0323@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-02-05,2026-02-19,2026-02-19,,Bengaluru,2026-02-05T09:00:00Z
+EMP-000324,Employee0324,Synthetic32,employee0324@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-08-25,2026-09-08,2026-09-08,,Remote,2026-08-25T09:00:00Z
+EMP-000325,Employee0325,Synthetic33,employee0325@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-08-14,2026-08-28,2026-08-29,,New York,2026-08-14T09:00:00Z
+EMP-000326,Employee0326,Synthetic34,employee0326@example.test,DEPT-001,ROLE-001,MGR-006,full_time,pending,2026-01-18,2026-02-01,,,London,2026-01-18T09:00:00Z
+EMP-000327,Employee0327,Synthetic35,employee0327@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-04-10,2026-04-24,2026-04-24,,Bengaluru,2026-04-10T09:00:00Z
+EMP-000328,Employee0328,Synthetic36,employee0328@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-05-11,2026-05-25,2026-05-25,,Remote,2026-05-11T09:00:00Z
+EMP-000329,Employee0329,Synthetic37,employee0329@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-01-30,2026-02-13,2026-02-13,,New York,2026-01-30T09:00:00Z
+EMP-000330,Employee0330,Synthetic38,employee0330@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-05-23,2026-06-06,2026-06-06,,London,2026-05-23T09:00:00Z
+EMP-000331,Employee0331,Synthetic39,employee0331@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-08-22,2026-09-05,2026-09-05,2026-12-04,Bengaluru,2026-08-22T09:00:00Z
+EMP-000332,Employee0332,Synthetic40,employee0332@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-06-29,2026-07-13,2026-07-13,,Remote,2026-06-29T09:00:00Z
+EMP-000333,Employee0333,Synthetic41,employee0333@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-01-09,2026-01-23,2026-01-23,,New York,2026-01-09T09:00:00Z
+EMP-000334,Employee0334,Synthetic42,employee0334@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-09-15,2026-09-29,2026-10-06,,London,2026-09-15T09:00:00Z
+EMP-000335,Employee0335,Synthetic43,employee0335@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-10-04,2026-10-18,2026-10-18,,Bengaluru,2026-10-04T09:00:00Z
+EMP-000336,Employee0336,Synthetic44,employee0336@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-02-19,2026-03-05,2026-03-05,,Remote,2026-02-19T09:00:00Z
+EMP-000337,Employee0337,Synthetic45,employee0337@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-01-06,2026-01-20,2026-01-20,,New York,2026-01-06T09:00:00Z
+EMP-000338,Employee0338,Synthetic46,employee0338@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-07-10,2026-07-24,2026-07-24,,London,2026-07-10T09:00:00Z
+EMP-000339,Employee0339,Synthetic47,employee0339@example.test,DEPT-004,ROLE-004,MGR-019,full_time,pending,2026-05-24,2026-06-07,,,Bengaluru,2026-05-24T09:00:00Z
+EMP-000340,Employee0340,Synthetic48,employee0340@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-07-06,2026-07-20,2026-07-20,,Remote,2026-07-06T09:00:00Z
+EMP-000341,Employee0341,Synthetic49,employee0341@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-07-13,2026-07-27,2026-07-27,2026-10-25,New York,2026-07-13T09:00:00Z
+EMP-000342,Employee0342,Synthetic50,employee0342@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-08-09,2026-08-23,2026-08-23,,London,2026-08-09T09:00:00Z
+EMP-000343,Employee0343,Synthetic51,employee0343@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-09-12,2026-09-26,2026-09-29,,Bengaluru,2026-09-12T09:00:00Z
+EMP-000344,Employee0344,Synthetic52,employee0344@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-07-19,2026-08-02,2026-08-02,,Remote,2026-07-19T09:00:00Z
+EMP-000345,Employee0345,Synthetic53,employee0345@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-08-14,2026-08-28,2026-08-28,,New York,2026-08-14T09:00:00Z
+EMP-000346,Employee0346,Synthetic54,employee0346@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-07-10,2026-07-24,2026-07-24,,London,2026-07-10T09:00:00Z
+EMP-000347,Employee0347,Synthetic55,employee0347@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2025-12-19,2026-01-02,2026-01-02,,Bengaluru,2025-12-19T09:00:00Z
+EMP-000348,Employee0348,Synthetic56,employee0348@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-05-29,2026-06-12,2026-06-12,,Remote,2026-05-29T09:00:00Z
+EMP-000349,Employee0349,Synthetic57,employee0349@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-05-13,2026-05-27,2026-05-27,,New York,2026-05-13T09:00:00Z
+EMP-000350,Employee0350,Synthetic58,employee0350@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-09-27,2026-10-11,2026-10-11,,London,2026-09-27T09:00:00Z
+EMP-000351,Employee0351,Synthetic59,employee0351@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-06-05,2026-06-19,2026-06-19,2026-09-17,Bengaluru,2026-06-05T09:00:00Z
+EMP-000352,Employee0352,Synthetic60,employee0352@example.test,DEPT-002,ROLE-002,MGR-012,full_time,pending,2026-06-27,2026-07-11,,,Remote,2026-06-27T09:00:00Z
+EMP-000353,Employee0353,Synthetic61,employee0353@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-09-07,2026-09-21,2026-09-21,,New York,2026-09-07T09:00:00Z
+EMP-000354,Employee0354,Synthetic62,employee0354@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-06-14,2026-06-28,2026-06-28,,London,2026-06-14T09:00:00Z
+EMP-000355,Employee0355,Synthetic63,employee0355@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2026-02-05,2026-02-19,2026-02-19,,Bengaluru,2026-02-05T09:00:00Z
+EMP-000356,Employee0356,Synthetic64,employee0356@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-09-05,2026-09-19,2026-09-19,,Remote,2026-09-05T09:00:00Z
+EMP-000357,Employee0357,Synthetic65,employee0357@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-07-11,2026-07-25,2026-07-25,,New York,2026-07-11T09:00:00Z
+EMP-000358,Employee0358,Synthetic66,employee0358@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-07-04,2026-07-18,2026-07-18,,London,2026-07-04T09:00:00Z
+EMP-000359,Employee0359,Synthetic67,employee0359@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-08-11,2026-08-25,2026-08-25,,Bengaluru,2026-08-11T09:00:00Z
+EMP-000360,Employee0360,Synthetic68,employee0360@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-05-02,2026-05-16,2026-05-16,,Remote,2026-05-02T09:00:00Z
+EMP-000361,Employee0361,Synthetic69,employee0361@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-06-29,2026-07-13,2026-07-16,2026-10-14,New York,2026-06-29T09:00:00Z
+EMP-000362,Employee0362,Synthetic70,employee0362@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-06-19,2026-07-03,2026-07-03,,London,2026-06-19T09:00:00Z
+EMP-000363,Employee0363,Synthetic71,employee0363@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2025-12-20,2026-01-03,2026-01-03,,Bengaluru,2025-12-20T09:00:00Z
+EMP-000364,Employee0364,Synthetic72,employee0364@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-07-13,2026-07-27,2026-07-27,,Remote,2026-07-13T09:00:00Z
+EMP-000365,Employee0365,Synthetic73,employee0365@example.test,DEPT-005,ROLE-005,MGR-005,full_time,pending,2026-05-01,2026-05-15,,,New York,2026-05-01T09:00:00Z
+EMP-000366,Employee0366,Synthetic74,employee0366@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-03-27,2026-04-10,2026-04-10,,London,2026-03-27T09:00:00Z
+EMP-000367,Employee0367,Synthetic75,employee0367@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-03-02,2026-03-16,2026-03-16,,Bengaluru,2026-03-02T09:00:00Z
+EMP-000368,Employee0368,Synthetic76,employee0368@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-07-01,2026-07-15,2026-07-15,,Remote,2026-07-01T09:00:00Z
+EMP-000369,Employee0369,Synthetic77,employee0369@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-06-27,2026-07-11,2026-07-11,,New York,2026-06-27T09:00:00Z
+EMP-000370,Employee0370,Synthetic78,employee0370@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-03-04,2026-03-18,2026-03-24,,London,2026-03-04T09:00:00Z
+EMP-000371,Employee0371,Synthetic79,employee0371@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-06-12,2026-06-26,2026-06-26,2026-09-24,Bengaluru,2026-06-12T09:00:00Z
+EMP-000372,Employee0372,Synthetic80,employee0372@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-07-04,2026-07-18,2026-07-18,,Remote,2026-07-04T09:00:00Z
+EMP-000373,Employee0373,Synthetic81,employee0373@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-04-11,2026-04-25,2026-04-25,,New York,2026-04-11T09:00:00Z
+EMP-000374,Employee0374,Synthetic82,employee0374@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-07-04,2026-07-18,2026-07-18,,London,2026-07-04T09:00:00Z
+EMP-000375,Employee0375,Synthetic83,employee0375@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-08-28,2026-09-11,2026-09-11,,Bengaluru,2026-08-28T09:00:00Z
+EMP-000376,Employee0376,Synthetic84,employee0376@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2025-12-20,2026-01-03,2026-01-03,,Remote,2025-12-20T09:00:00Z
+EMP-000377,Employee0377,Synthetic85,employee0377@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-07-24,2026-08-07,2026-08-07,,New York,2026-07-24T09:00:00Z
+EMP-000378,Employee0378,Synthetic86,employee0378@example.test,DEPT-003,ROLE-003,MGR-018,full_time,pending,2026-09-22,2026-10-06,,,London,2026-09-22T09:00:00Z
+EMP-000379,Employee0379,Synthetic87,employee0379@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2026-09-18,2026-10-02,2026-10-09,,Bengaluru,2026-09-18T09:00:00Z
+EMP-000380,Employee0380,Synthetic88,employee0380@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-02-15,2026-03-01,2026-03-01,,Remote,2026-02-15T09:00:00Z
+EMP-000381,Employee0381,Synthetic89,employee0381@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-10-06,2026-10-20,2026-10-20,2027-01-18,New York,2026-10-06T09:00:00Z
+EMP-000382,Employee0382,Synthetic90,employee0382@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-04-10,2026-04-24,2026-04-24,,London,2026-04-10T09:00:00Z
+EMP-000383,Employee0383,Synthetic91,employee0383@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-05-03,2026-05-17,2026-05-17,,Bengaluru,2026-05-03T09:00:00Z
+EMP-000384,Employee0384,Synthetic92,employee0384@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-05-24,2026-06-07,2026-06-07,,Remote,2026-05-24T09:00:00Z
+EMP-000385,Employee0385,Synthetic93,employee0385@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-08-07,2026-08-21,2026-08-21,,New York,2026-08-07T09:00:00Z
+EMP-000386,Employee0386,Synthetic94,employee0386@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-07-12,2026-07-26,2026-07-26,,London,2026-07-12T09:00:00Z
+EMP-000387,Employee0387,Synthetic95,employee0387@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-03-26,2026-04-09,2026-04-09,,Bengaluru,2026-03-26T09:00:00Z
+EMP-000388,Employee0388,Synthetic96,employee0388@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-06-02,2026-06-16,2026-06-17,,Remote,2026-06-02T09:00:00Z
+EMP-000389,Employee0389,Synthetic00,employee0389@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-02-17,2026-03-03,2026-03-03,,New York,2026-02-17T09:00:00Z
+EMP-000390,Employee0390,Synthetic01,employee0390@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-05-04,2026-05-18,2026-05-18,,London,2026-05-04T09:00:00Z
+EMP-000391,Employee0391,Synthetic02,employee0391@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-04-17,2026-05-01,2026-05-01,2026-07-30,Bengaluru,2026-04-17T09:00:00Z
+EMP-000392,Employee0392,Synthetic03,employee0392@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-08-28,2026-09-11,2026-09-11,,Remote,2026-08-28T09:00:00Z
+EMP-000393,Employee0393,Synthetic04,employee0393@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-09-10,2026-09-24,2026-09-24,,New York,2026-09-10T09:00:00Z
+EMP-000394,Employee0394,Synthetic05,employee0394@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-09-04,2026-09-18,2026-09-18,,London,2026-09-04T09:00:00Z
+EMP-000395,Employee0395,Synthetic06,employee0395@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-05-06,2026-05-20,2026-05-20,,Bengaluru,2026-05-06T09:00:00Z
+EMP-000396,Employee0396,Synthetic07,employee0396@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-07-23,2026-08-06,2026-08-06,,Remote,2026-07-23T09:00:00Z
+EMP-000397,Employee0397,Synthetic08,employee0397@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-02-08,2026-02-22,2026-03-01,,New York,2026-02-08T09:00:00Z
+EMP-000398,Employee0398,Synthetic09,employee0398@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-07-19,2026-08-02,2026-08-02,,London,2026-07-19T09:00:00Z
+EMP-000399,Employee0399,Synthetic10,employee0399@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-01-20,2026-02-03,2026-02-03,,Bengaluru,2026-01-20T09:00:00Z
+EMP-000400,Employee0400,Synthetic11,employee0400@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-09-11,2026-09-25,2026-09-25,,Remote,2026-09-11T09:00:00Z
+EMP-000401,Employee0401,Synthetic12,employee0401@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-06-14,2026-06-28,2026-06-28,2026-09-26,New York,2026-06-14T09:00:00Z
+EMP-000402,Employee0402,Synthetic13,employee0402@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-09-29,2026-10-13,2026-10-13,,London,2026-09-29T09:00:00Z
+EMP-000403,Employee0403,Synthetic14,employee0403@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-10-10,2026-10-24,2026-10-24,,Bengaluru,2026-10-10T09:00:00Z
+EMP-000404,Employee0404,Synthetic15,employee0404@example.test,DEPT-004,ROLE-004,MGR-004,full_time,pending,2026-01-30,2026-02-13,,,Remote,2026-01-30T09:00:00Z
+EMP-000405,Employee0405,Synthetic16,employee0405@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-07-30,2026-08-13,2026-08-13,,New York,2026-07-30T09:00:00Z
+EMP-000406,Employee0406,Synthetic17,employee0406@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2025-12-20,2026-01-03,2026-01-06,,London,2025-12-20T09:00:00Z
+EMP-000407,Employee0407,Synthetic18,employee0407@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-04-30,2026-05-14,2026-05-14,,Bengaluru,2026-04-30T09:00:00Z
+EMP-000408,Employee0408,Synthetic19,employee0408@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-01-13,2026-01-27,2026-01-27,,Remote,2026-01-13T09:00:00Z
+EMP-000409,Employee0409,Synthetic20,employee0409@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2025-12-24,2026-01-07,2026-01-07,,New York,2025-12-24T09:00:00Z
+EMP-000410,Employee0410,Synthetic21,employee0410@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-09-26,2026-10-10,2026-10-10,,London,2026-09-26T09:00:00Z
+EMP-000411,Employee0411,Synthetic22,employee0411@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-02-09,2026-02-23,2026-02-23,2026-05-24,Bengaluru,2026-02-09T09:00:00Z
+EMP-000412,Employee0412,Synthetic23,employee0412@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2025-12-19,2026-01-02,2026-01-02,,Remote,2025-12-19T09:00:00Z
+EMP-000413,Employee0413,Synthetic24,employee0413@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-04-25,2026-05-09,2026-05-09,,New York,2026-04-25T09:00:00Z
+EMP-000414,Employee0414,Synthetic25,employee0414@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-05-22,2026-06-05,2026-06-05,,London,2026-05-22T09:00:00Z
+EMP-000415,Employee0415,Synthetic26,employee0415@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2025-12-29,2026-01-12,2026-01-16,,Bengaluru,2025-12-29T09:00:00Z
+EMP-000416,Employee0416,Synthetic27,employee0416@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-05-11,2026-05-25,2026-05-25,,Remote,2026-05-11T09:00:00Z
+EMP-000417,Employee0417,Synthetic28,employee0417@example.test,DEPT-002,ROLE-002,MGR-017,full_time,pending,2026-05-01,2026-05-15,,,New York,2026-05-01T09:00:00Z
+EMP-000418,Employee0418,Synthetic29,employee0418@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-04-30,2026-05-14,2026-05-14,,London,2026-04-30T09:00:00Z
+EMP-000419,Employee0419,Synthetic30,employee0419@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-06-15,2026-06-29,2026-06-29,,Bengaluru,2026-06-15T09:00:00Z
+EMP-000420,Employee0420,Synthetic31,employee0420@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-01-02,2026-01-16,2026-01-16,,Remote,2026-01-02T09:00:00Z
+EMP-000421,Employee0421,Synthetic32,employee0421@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-04-10,2026-04-24,2026-04-24,2026-07-23,New York,2026-04-10T09:00:00Z
+EMP-000422,Employee0422,Synthetic33,employee0422@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-02-13,2026-02-27,2026-02-27,,London,2026-02-13T09:00:00Z
+EMP-000423,Employee0423,Synthetic34,employee0423@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-02-25,2026-03-11,2026-03-11,,Bengaluru,2026-02-25T09:00:00Z
+EMP-000424,Employee0424,Synthetic35,employee0424@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-04-10,2026-04-24,2026-04-25,,Remote,2026-04-10T09:00:00Z
+EMP-000425,Employee0425,Synthetic36,employee0425@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-01-28,2026-02-11,2026-02-11,,New York,2026-01-28T09:00:00Z
+EMP-000426,Employee0426,Synthetic37,employee0426@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-03-13,2026-03-27,2026-03-27,,London,2026-03-13T09:00:00Z
+EMP-000427,Employee0427,Synthetic38,employee0427@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-07-10,2026-07-24,2026-07-24,,Bengaluru,2026-07-10T09:00:00Z
+EMP-000428,Employee0428,Synthetic39,employee0428@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-08-13,2026-08-27,2026-08-27,,Remote,2026-08-13T09:00:00Z
+EMP-000429,Employee0429,Synthetic40,employee0429@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-07-22,2026-08-05,2026-08-05,,New York,2026-07-22T09:00:00Z
+EMP-000430,Employee0430,Synthetic41,employee0430@example.test,DEPT-005,ROLE-005,MGR-010,full_time,pending,2026-08-23,2026-09-06,,,London,2026-08-23T09:00:00Z
+EMP-000431,Employee0431,Synthetic42,employee0431@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-03-17,2026-03-31,2026-03-31,2026-06-29,Bengaluru,2026-03-17T09:00:00Z
+EMP-000432,Employee0432,Synthetic43,employee0432@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-02-12,2026-02-26,2026-02-26,,Remote,2026-02-12T09:00:00Z
+EMP-000433,Employee0433,Synthetic44,employee0433@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-03-05,2026-03-19,2026-03-24,,New York,2026-03-05T09:00:00Z
+EMP-000434,Employee0434,Synthetic45,employee0434@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-05-27,2026-06-10,2026-06-10,,London,2026-05-27T09:00:00Z
+EMP-000435,Employee0435,Synthetic46,employee0435@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2025-12-29,2026-01-12,2026-01-12,,Bengaluru,2025-12-29T09:00:00Z
+EMP-000436,Employee0436,Synthetic47,employee0436@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-01-27,2026-02-10,2026-02-10,,Remote,2026-01-27T09:00:00Z
+EMP-000437,Employee0437,Synthetic48,employee0437@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-05-17,2026-05-31,2026-05-31,,New York,2026-05-17T09:00:00Z
+EMP-000438,Employee0438,Synthetic49,employee0438@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-01-31,2026-02-14,2026-02-14,,London,2026-01-31T09:00:00Z
+EMP-000439,Employee0439,Synthetic50,employee0439@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2025-12-26,2026-01-09,2026-01-09,,Bengaluru,2025-12-26T09:00:00Z
+EMP-000440,Employee0440,Synthetic51,employee0440@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-03-08,2026-03-22,2026-03-22,,Remote,2026-03-08T09:00:00Z
+EMP-000441,Employee0441,Synthetic52,employee0441@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2025-12-21,2026-01-04,2026-01-04,2026-04-04,New York,2025-12-21T09:00:00Z
+EMP-000442,Employee0442,Synthetic53,employee0442@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-06-26,2026-07-10,2026-07-15,,London,2026-06-26T09:00:00Z
+EMP-000443,Employee0443,Synthetic54,employee0443@example.test,DEPT-003,ROLE-003,MGR-003,full_time,pending,2026-07-04,2026-07-18,,,Bengaluru,2026-07-04T09:00:00Z
+EMP-000444,Employee0444,Synthetic55,employee0444@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-07-29,2026-08-12,2026-08-12,,Remote,2026-07-29T09:00:00Z
+EMP-000445,Employee0445,Synthetic56,employee0445@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-09-14,2026-09-28,2026-09-28,,New York,2026-09-14T09:00:00Z
+EMP-000446,Employee0446,Synthetic57,employee0446@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-05-06,2026-05-20,2026-05-20,,London,2026-05-06T09:00:00Z
+EMP-000447,Employee0447,Synthetic58,employee0447@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-01-18,2026-02-01,2026-02-01,,Bengaluru,2026-01-18T09:00:00Z
+EMP-000448,Employee0448,Synthetic59,employee0448@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-07-09,2026-07-23,2026-07-23,,Remote,2026-07-09T09:00:00Z
+EMP-000449,Employee0449,Synthetic60,employee0449@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-06-17,2026-07-01,2026-07-01,,New York,2026-06-17T09:00:00Z
+EMP-000450,Employee0450,Synthetic61,employee0450@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-04-22,2026-05-06,2026-05-06,,London,2026-04-22T09:00:00Z
+EMP-000451,Employee0451,Synthetic62,employee0451@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-07-11,2026-07-25,2026-07-26,2026-10-24,Bengaluru,2026-07-11T09:00:00Z
+EMP-000452,Employee0452,Synthetic63,employee0452@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-07-08,2026-07-22,2026-07-22,,Remote,2026-07-08T09:00:00Z
+EMP-000453,Employee0453,Synthetic64,employee0453@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-07-29,2026-08-12,2026-08-12,,New York,2026-07-29T09:00:00Z
+EMP-000454,Employee0454,Synthetic65,employee0454@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2025-12-20,2026-01-03,2026-01-03,,London,2025-12-20T09:00:00Z
+EMP-000455,Employee0455,Synthetic66,employee0455@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-03-18,2026-04-01,2026-04-01,,Bengaluru,2026-03-18T09:00:00Z
+EMP-000456,Employee0456,Synthetic67,employee0456@example.test,DEPT-001,ROLE-001,MGR-016,full_time,pending,2026-10-07,2026-10-21,,,Remote,2026-10-07T09:00:00Z
+EMP-000457,Employee0457,Synthetic68,employee0457@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-03-09,2026-03-23,2026-03-23,,New York,2026-03-09T09:00:00Z
+EMP-000458,Employee0458,Synthetic69,employee0458@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-09-16,2026-09-30,2026-09-30,,London,2026-09-16T09:00:00Z
+EMP-000459,Employee0459,Synthetic70,employee0459@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-01-31,2026-02-14,2026-02-14,,Bengaluru,2026-01-31T09:00:00Z
+EMP-000460,Employee0460,Synthetic71,employee0460@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-05-04,2026-05-18,2026-05-25,,Remote,2026-05-04T09:00:00Z
+EMP-000461,Employee0461,Synthetic72,employee0461@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-01-03,2026-01-17,2026-01-17,2026-04-17,New York,2026-01-03T09:00:00Z
+EMP-000462,Employee0462,Synthetic73,employee0462@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-07-03,2026-07-17,2026-07-17,,London,2026-07-03T09:00:00Z
+EMP-000463,Employee0463,Synthetic74,employee0463@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-09-07,2026-09-21,2026-09-21,,Bengaluru,2026-09-07T09:00:00Z
+EMP-000464,Employee0464,Synthetic75,employee0464@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-10-11,2026-10-25,2026-10-25,,Remote,2026-10-11T09:00:00Z
+EMP-000465,Employee0465,Synthetic76,employee0465@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-07-31,2026-08-14,2026-08-14,,New York,2026-07-31T09:00:00Z
+EMP-000466,Employee0466,Synthetic77,employee0466@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-08-05,2026-08-19,2026-08-19,,London,2026-08-05T09:00:00Z
+EMP-000467,Employee0467,Synthetic78,employee0467@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-04-10,2026-04-24,2026-04-24,,Bengaluru,2026-04-10T09:00:00Z
+EMP-000468,Employee0468,Synthetic79,employee0468@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-08-09,2026-08-23,2026-08-23,,Remote,2026-08-09T09:00:00Z
+EMP-000469,Employee0469,Synthetic80,employee0469@example.test,DEPT-004,ROLE-004,MGR-009,contractor,pending,2026-05-06,2026-05-20,,,New York,2026-05-06T09:00:00Z
+EMP-000470,Employee0470,Synthetic81,employee0470@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-01-22,2026-02-05,2026-02-05,,London,2026-01-22T09:00:00Z
+EMP-000471,Employee0471,Synthetic82,employee0471@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-09-30,2026-10-14,2026-10-14,2027-01-12,Bengaluru,2026-09-30T09:00:00Z
+EMP-000472,Employee0472,Synthetic83,employee0472@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-03-13,2026-03-27,2026-03-27,,Remote,2026-03-13T09:00:00Z
+EMP-000473,Employee0473,Synthetic84,employee0473@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-02-06,2026-02-20,2026-02-20,,New York,2026-02-06T09:00:00Z
+EMP-000474,Employee0474,Synthetic85,employee0474@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-03-15,2026-03-29,2026-03-29,,London,2026-03-15T09:00:00Z
+EMP-000475,Employee0475,Synthetic86,employee0475@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2026-07-04,2026-07-18,2026-07-18,,Bengaluru,2026-07-04T09:00:00Z
+EMP-000476,Employee0476,Synthetic87,employee0476@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-02-26,2026-03-12,2026-03-12,,Remote,2026-02-26T09:00:00Z
+EMP-000477,Employee0477,Synthetic88,employee0477@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-05-11,2026-05-25,2026-05-25,,New York,2026-05-11T09:00:00Z
+EMP-000478,Employee0478,Synthetic89,employee0478@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-05-01,2026-05-15,2026-05-18,,London,2026-05-01T09:00:00Z
+EMP-000479,Employee0479,Synthetic90,employee0479@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-04-24,2026-05-08,2026-05-08,,Bengaluru,2026-04-24T09:00:00Z
+EMP-000480,Employee0480,Synthetic91,employee0480@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-05-21,2026-06-04,2026-06-04,,Remote,2026-05-21T09:00:00Z
+EMP-000481,Employee0481,Synthetic92,employee0481@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-03-26,2026-04-09,2026-04-09,2026-07-08,New York,2026-03-26T09:00:00Z
+EMP-000482,Employee0482,Synthetic93,employee0482@example.test,DEPT-002,ROLE-002,MGR-002,full_time,pending,2026-10-07,2026-10-21,,,London,2026-10-07T09:00:00Z
+EMP-000483,Employee0483,Synthetic94,employee0483@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-02-17,2026-03-03,2026-03-03,,Bengaluru,2026-02-17T09:00:00Z
+EMP-000484,Employee0484,Synthetic95,employee0484@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-01-18,2026-02-01,2026-02-01,,Remote,2026-01-18T09:00:00Z
+EMP-000485,Employee0485,Synthetic96,employee0485@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-05-08,2026-05-22,2026-05-22,,New York,2026-05-08T09:00:00Z
+EMP-000486,Employee0486,Synthetic00,employee0486@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-08-09,2026-08-23,2026-08-23,,London,2026-08-09T09:00:00Z
+EMP-000487,Employee0487,Synthetic01,employee0487@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-03-13,2026-03-27,2026-04-03,,Bengaluru,2026-03-13T09:00:00Z
+EMP-000488,Employee0488,Synthetic02,employee0488@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-01-03,2026-01-17,2026-01-17,,Remote,2026-01-03T09:00:00Z
+EMP-000489,Employee0489,Synthetic03,employee0489@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-10-02,2026-10-16,2026-10-16,,New York,2026-10-02T09:00:00Z
+EMP-000490,Employee0490,Synthetic04,employee0490@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-04-13,2026-04-27,2026-04-27,,London,2026-04-13T09:00:00Z
+EMP-000491,Employee0491,Synthetic05,employee0491@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-10-12,2026-10-26,2026-10-26,2027-01-24,Bengaluru,2026-10-12T09:00:00Z
+EMP-000492,Employee0492,Synthetic06,employee0492@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-03-26,2026-04-09,2026-04-09,,Remote,2026-03-26T09:00:00Z
+EMP-000493,Employee0493,Synthetic07,employee0493@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-05-29,2026-06-12,2026-06-12,,New York,2026-05-29T09:00:00Z
+EMP-000494,Employee0494,Synthetic08,employee0494@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-06-30,2026-07-14,2026-07-14,,London,2026-06-30T09:00:00Z
+EMP-000495,Employee0495,Synthetic09,employee0495@example.test,DEPT-005,ROLE-005,MGR-015,full_time,pending,2026-08-22,2026-09-05,,,Bengaluru,2026-08-22T09:00:00Z
+EMP-000496,Employee0496,Synthetic10,employee0496@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-08-27,2026-09-10,2026-09-16,,Remote,2026-08-27T09:00:00Z
+EMP-000497,Employee0497,Synthetic11,employee0497@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-08-03,2026-08-17,2026-08-17,,New York,2026-08-03T09:00:00Z
+EMP-000498,Employee0498,Synthetic12,employee0498@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-10-06,2026-10-20,2026-10-20,,London,2026-10-06T09:00:00Z
+EMP-000499,Employee0499,Synthetic13,employee0499@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2026-05-21,2026-06-04,2026-06-04,,Bengaluru,2026-05-21T09:00:00Z
+EMP-000500,Employee0500,Synthetic14,employee0500@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-06-08,2026-06-22,2026-06-22,,Remote,2026-06-08T09:00:00Z
+EMP-000501,Employee0501,Synthetic15,employee0501@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-04-28,2026-05-12,2026-05-12,2026-08-10,New York,2026-04-28T09:00:00Z
+EMP-000502,Employee0502,Synthetic16,employee0502@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-09-18,2026-10-02,2026-10-02,,London,2026-09-18T09:00:00Z
+EMP-000503,Employee0503,Synthetic17,employee0503@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-07-07,2026-07-21,2026-07-21,,Bengaluru,2026-07-07T09:00:00Z
+EMP-000504,Employee0504,Synthetic18,employee0504@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-02-18,2026-03-04,2026-03-04,,Remote,2026-02-18T09:00:00Z
+EMP-000505,Employee0505,Synthetic19,employee0505@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-01-20,2026-02-03,2026-02-05,,New York,2026-01-20T09:00:00Z
+EMP-000506,Employee0506,Synthetic20,employee0506@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-07-09,2026-07-23,2026-07-23,,London,2026-07-09T09:00:00Z
+EMP-000507,Employee0507,Synthetic21,employee0507@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-04-08,2026-04-22,2026-04-22,,Bengaluru,2026-04-08T09:00:00Z
+EMP-000508,Employee0508,Synthetic22,employee0508@example.test,DEPT-003,ROLE-003,MGR-008,full_time,pending,2026-04-26,2026-05-10,,,Remote,2026-04-26T09:00:00Z
+EMP-000509,Employee0509,Synthetic23,employee0509@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-10-09,2026-10-23,2026-10-23,,New York,2026-10-09T09:00:00Z
+EMP-000510,Employee0510,Synthetic24,employee0510@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-05-30,2026-06-13,2026-06-13,,London,2026-05-30T09:00:00Z
+EMP-000511,Employee0511,Synthetic25,employee0511@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-03-04,2026-03-18,2026-03-18,2026-06-16,Bengaluru,2026-03-04T09:00:00Z
+EMP-000512,Employee0512,Synthetic26,employee0512@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-06-10,2026-06-24,2026-06-24,,Remote,2026-06-10T09:00:00Z
+EMP-000513,Employee0513,Synthetic27,employee0513@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-07-08,2026-07-22,2026-07-22,,New York,2026-07-08T09:00:00Z
+EMP-000514,Employee0514,Synthetic28,employee0514@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-03-17,2026-03-31,2026-04-07,,London,2026-03-17T09:00:00Z
+EMP-000515,Employee0515,Synthetic29,employee0515@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-08-30,2026-09-13,2026-09-13,,Bengaluru,2026-08-30T09:00:00Z
+EMP-000516,Employee0516,Synthetic30,employee0516@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-04-30,2026-05-14,2026-05-14,,Remote,2026-04-30T09:00:00Z
+EMP-000517,Employee0517,Synthetic31,employee0517@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-03-19,2026-04-02,2026-04-02,,New York,2026-03-19T09:00:00Z
+EMP-000518,Employee0518,Synthetic32,employee0518@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-09-14,2026-09-28,2026-09-28,,London,2026-09-14T09:00:00Z
+EMP-000519,Employee0519,Synthetic33,employee0519@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-05-15,2026-05-29,2026-05-29,,Bengaluru,2026-05-15T09:00:00Z
+EMP-000520,Employee0520,Synthetic34,employee0520@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-09-11,2026-09-25,2026-09-25,,Remote,2026-09-11T09:00:00Z
+EMP-000521,Employee0521,Synthetic35,employee0521@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-01-19,2026-02-02,2026-02-02,2026-05-03,New York,2026-01-19T09:00:00Z
+EMP-000522,Employee0522,Synthetic36,employee0522@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-07-20,2026-08-03,2026-08-03,,London,2026-07-20T09:00:00Z
+EMP-000523,Employee0523,Synthetic37,employee0523@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-05-21,2026-06-04,2026-06-06,,Bengaluru,2026-05-21T09:00:00Z
+EMP-000524,Employee0524,Synthetic38,employee0524@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-07-12,2026-07-26,2026-07-26,,Remote,2026-07-12T09:00:00Z
+EMP-000525,Employee0525,Synthetic39,employee0525@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-05-21,2026-06-04,2026-06-04,,New York,2026-05-21T09:00:00Z
+EMP-000526,Employee0526,Synthetic40,employee0526@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-07-18,2026-08-01,2026-08-01,,London,2026-07-18T09:00:00Z
+EMP-000527,Employee0527,Synthetic41,employee0527@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-01-22,2026-02-05,2026-02-05,,Bengaluru,2026-01-22T09:00:00Z
+EMP-000528,Employee0528,Synthetic42,employee0528@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-04-04,2026-04-18,2026-04-18,,Remote,2026-04-04T09:00:00Z
+EMP-000529,Employee0529,Synthetic43,employee0529@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-09-03,2026-09-17,2026-09-17,,New York,2026-09-03T09:00:00Z
+EMP-000530,Employee0530,Synthetic44,employee0530@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-09-19,2026-10-03,2026-10-03,,London,2026-09-19T09:00:00Z
+EMP-000531,Employee0531,Synthetic45,employee0531@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-02-26,2026-03-12,2026-03-12,2026-06-10,Bengaluru,2026-02-26T09:00:00Z
+EMP-000532,Employee0532,Synthetic46,employee0532@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-08-04,2026-08-18,2026-08-20,,Remote,2026-08-04T09:00:00Z
+EMP-000533,Employee0533,Synthetic47,employee0533@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-03-28,2026-04-11,2026-04-11,,New York,2026-03-28T09:00:00Z
+EMP-000534,Employee0534,Synthetic48,employee0534@example.test,DEPT-004,ROLE-004,MGR-014,full_time,pending,2026-09-14,2026-09-28,,,London,2026-09-14T09:00:00Z
+EMP-000535,Employee0535,Synthetic49,employee0535@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2026-03-27,2026-04-10,2026-04-10,,Bengaluru,2026-03-27T09:00:00Z
+EMP-000536,Employee0536,Synthetic50,employee0536@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-08-18,2026-09-01,2026-09-01,,Remote,2026-08-18T09:00:00Z
+EMP-000537,Employee0537,Synthetic51,employee0537@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-06-23,2026-07-07,2026-07-07,,New York,2026-06-23T09:00:00Z
+EMP-000538,Employee0538,Synthetic52,employee0538@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-04-13,2026-04-27,2026-04-27,,London,2026-04-13T09:00:00Z
+EMP-000539,Employee0539,Synthetic53,employee0539@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-02-07,2026-02-21,2026-02-21,,Bengaluru,2026-02-07T09:00:00Z
+EMP-000540,Employee0540,Synthetic54,employee0540@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-01-22,2026-02-05,2026-02-05,,Remote,2026-01-22T09:00:00Z
+EMP-000541,Employee0541,Synthetic55,employee0541@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-08-13,2026-08-27,2026-09-03,2026-12-02,New York,2026-08-13T09:00:00Z
+EMP-000542,Employee0542,Synthetic56,employee0542@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-06-11,2026-06-25,2026-06-25,,London,2026-06-11T09:00:00Z
+EMP-000543,Employee0543,Synthetic57,employee0543@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2025-12-29,2026-01-12,2026-01-12,,Bengaluru,2025-12-29T09:00:00Z
+EMP-000544,Employee0544,Synthetic58,employee0544@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-02-19,2026-03-05,2026-03-05,,Remote,2026-02-19T09:00:00Z
+EMP-000545,Employee0545,Synthetic59,employee0545@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-01-23,2026-02-06,2026-02-06,,New York,2026-01-23T09:00:00Z
+EMP-000546,Employee0546,Synthetic60,employee0546@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-07-09,2026-07-23,2026-07-23,,London,2026-07-09T09:00:00Z
+EMP-000547,Employee0547,Synthetic61,employee0547@example.test,DEPT-002,ROLE-002,MGR-007,contractor,pending,2026-07-18,2026-08-01,,,Bengaluru,2026-07-18T09:00:00Z
+EMP-000548,Employee0548,Synthetic62,employee0548@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-04-02,2026-04-16,2026-04-16,,Remote,2026-04-02T09:00:00Z
+EMP-000549,Employee0549,Synthetic63,employee0549@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-06-25,2026-07-09,2026-07-09,,New York,2026-06-25T09:00:00Z
+EMP-000550,Employee0550,Synthetic64,employee0550@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-03-12,2026-03-26,2026-03-28,,London,2026-03-12T09:00:00Z
+EMP-000551,Employee0551,Synthetic65,employee0551@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-07-24,2026-08-07,2026-08-07,2026-11-05,Bengaluru,2026-07-24T09:00:00Z
+EMP-000552,Employee0552,Synthetic66,employee0552@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-09-09,2026-09-23,2026-09-23,,Remote,2026-09-09T09:00:00Z
+EMP-000553,Employee0553,Synthetic67,employee0553@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-06-01,2026-06-15,2026-06-15,,New York,2026-06-01T09:00:00Z
+EMP-000554,Employee0554,Synthetic68,employee0554@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2025-12-20,2026-01-03,2026-01-03,,London,2025-12-20T09:00:00Z
+EMP-000555,Employee0555,Synthetic69,employee0555@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-02-07,2026-02-21,2026-02-21,,Bengaluru,2026-02-07T09:00:00Z
+EMP-000556,Employee0556,Synthetic70,employee0556@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-04-28,2026-05-12,2026-05-12,,Remote,2026-04-28T09:00:00Z
+EMP-000557,Employee0557,Synthetic71,employee0557@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-09-29,2026-10-13,2026-10-13,,New York,2026-09-29T09:00:00Z
+EMP-000558,Employee0558,Synthetic72,employee0558@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-08-29,2026-09-12,2026-09-12,,London,2026-08-29T09:00:00Z
+EMP-000559,Employee0559,Synthetic73,employee0559@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2026-09-11,2026-09-25,2026-10-03,,Bengaluru,2026-09-11T09:00:00Z
+EMP-000560,Employee0560,Synthetic74,employee0560@example.test,DEPT-005,ROLE-005,MGR-020,full_time,pending,2026-07-17,2026-07-31,,,Remote,2026-07-17T09:00:00Z
+EMP-000561,Employee0561,Synthetic75,employee0561@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-06-30,2026-07-14,2026-07-14,2026-10-12,New York,2026-06-30T09:00:00Z
+EMP-000562,Employee0562,Synthetic76,employee0562@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-04-08,2026-04-22,2026-04-22,,London,2026-04-08T09:00:00Z
+EMP-000563,Employee0563,Synthetic77,employee0563@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-09-29,2026-10-13,2026-10-13,,Bengaluru,2026-09-29T09:00:00Z
+EMP-000564,Employee0564,Synthetic78,employee0564@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-08-19,2026-09-02,2026-09-02,,Remote,2026-08-19T09:00:00Z
+EMP-000565,Employee0565,Synthetic79,employee0565@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-08-20,2026-09-03,2026-09-03,,New York,2026-08-20T09:00:00Z
+EMP-000566,Employee0566,Synthetic80,employee0566@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-03-31,2026-04-14,2026-04-14,,London,2026-03-31T09:00:00Z
+EMP-000567,Employee0567,Synthetic81,employee0567@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-02-03,2026-02-17,2026-02-17,,Bengaluru,2026-02-03T09:00:00Z
+EMP-000568,Employee0568,Synthetic82,employee0568@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2025-12-24,2026-01-07,2026-01-14,,Remote,2025-12-24T09:00:00Z
+EMP-000569,Employee0569,Synthetic83,employee0569@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-02-17,2026-03-03,2026-03-03,,New York,2026-02-17T09:00:00Z
+EMP-000570,Employee0570,Synthetic84,employee0570@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-06-10,2026-06-24,2026-06-24,,London,2026-06-10T09:00:00Z
+EMP-000571,Employee0571,Synthetic85,employee0571@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2025-12-25,2026-01-08,2026-01-08,2026-04-08,Bengaluru,2025-12-25T09:00:00Z
+EMP-000572,Employee0572,Synthetic86,employee0572@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-01-18,2026-02-01,2026-02-01,,Remote,2026-01-18T09:00:00Z
+EMP-000573,Employee0573,Synthetic87,employee0573@example.test,DEPT-003,ROLE-003,MGR-013,full_time,pending,2026-01-22,2026-02-05,,,New York,2026-01-22T09:00:00Z
+EMP-000574,Employee0574,Synthetic88,employee0574@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-06-02,2026-06-16,2026-06-16,,London,2026-06-02T09:00:00Z
+EMP-000575,Employee0575,Synthetic89,employee0575@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-01-29,2026-02-12,2026-02-12,,Bengaluru,2026-01-29T09:00:00Z
+EMP-000576,Employee0576,Synthetic90,employee0576@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-04-07,2026-04-21,2026-04-21,,Remote,2026-04-07T09:00:00Z
+EMP-000577,Employee0577,Synthetic91,employee0577@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-09-10,2026-09-24,2026-09-28,,New York,2026-09-10T09:00:00Z
+EMP-000578,Employee0578,Synthetic92,employee0578@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-10-05,2026-10-19,2026-10-19,,London,2026-10-05T09:00:00Z
+EMP-000579,Employee0579,Synthetic93,employee0579@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-03-10,2026-03-24,2026-03-24,,Bengaluru,2026-03-10T09:00:00Z
+EMP-000580,Employee0580,Synthetic94,employee0580@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-05-24,2026-06-07,2026-06-07,,Remote,2026-05-24T09:00:00Z
+EMP-000581,Employee0581,Synthetic95,employee0581@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-08-01,2026-08-15,2026-08-15,2026-11-13,New York,2026-08-01T09:00:00Z
+EMP-000582,Employee0582,Synthetic96,employee0582@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-08-11,2026-08-25,2026-08-25,,London,2026-08-11T09:00:00Z
+EMP-000583,Employee0583,Synthetic00,employee0583@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-03-30,2026-04-13,2026-04-13,,Bengaluru,2026-03-30T09:00:00Z
+EMP-000584,Employee0584,Synthetic01,employee0584@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-06-14,2026-06-28,2026-06-28,,Remote,2026-06-14T09:00:00Z
+EMP-000585,Employee0585,Synthetic02,employee0585@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-01-07,2026-01-21,2026-01-21,,New York,2026-01-07T09:00:00Z
+EMP-000586,Employee0586,Synthetic03,employee0586@example.test,DEPT-001,ROLE-001,MGR-006,full_time,pending,2026-04-18,2026-05-02,,,London,2026-04-18T09:00:00Z
+EMP-000587,Employee0587,Synthetic04,employee0587@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-06-29,2026-07-13,2026-07-13,,Bengaluru,2026-06-29T09:00:00Z
+EMP-000588,Employee0588,Synthetic05,employee0588@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-03-03,2026-03-17,2026-03-17,,Remote,2026-03-03T09:00:00Z
+EMP-000589,Employee0589,Synthetic06,employee0589@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-07-29,2026-08-12,2026-08-12,,New York,2026-07-29T09:00:00Z
+EMP-000590,Employee0590,Synthetic07,employee0590@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-05-18,2026-06-01,2026-06-01,,London,2026-05-18T09:00:00Z
+EMP-000591,Employee0591,Synthetic08,employee0591@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2025-12-22,2026-01-05,2026-01-05,2026-04-05,Bengaluru,2025-12-22T09:00:00Z
+EMP-000592,Employee0592,Synthetic09,employee0592@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-03-26,2026-04-09,2026-04-09,,Remote,2026-03-26T09:00:00Z
+EMP-000593,Employee0593,Synthetic10,employee0593@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-07-13,2026-07-27,2026-07-27,,New York,2026-07-13T09:00:00Z
+EMP-000594,Employee0594,Synthetic11,employee0594@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-01-01,2026-01-15,2026-01-15,,London,2026-01-01T09:00:00Z
+EMP-000595,Employee0595,Synthetic12,employee0595@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2026-02-24,2026-03-10,2026-03-15,,Bengaluru,2026-02-24T09:00:00Z
+EMP-000596,Employee0596,Synthetic13,employee0596@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-07-12,2026-07-26,2026-07-26,,Remote,2026-07-12T09:00:00Z
+EMP-000597,Employee0597,Synthetic14,employee0597@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-05-21,2026-06-04,2026-06-04,,New York,2026-05-21T09:00:00Z
+EMP-000598,Employee0598,Synthetic15,employee0598@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-05-23,2026-06-06,2026-06-06,,London,2026-05-23T09:00:00Z
+EMP-000599,Employee0599,Synthetic16,employee0599@example.test,DEPT-004,ROLE-004,MGR-019,full_time,pending,2026-10-05,2026-10-19,,,Bengaluru,2026-10-05T09:00:00Z
+EMP-000600,Employee0600,Synthetic17,employee0600@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-01-27,2026-02-10,2026-02-10,,Remote,2026-01-27T09:00:00Z
+EMP-000601,Employee0601,Synthetic18,employee0601@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2025-12-30,2026-01-13,2026-01-13,2026-04-13,New York,2025-12-30T09:00:00Z
+EMP-000602,Employee0602,Synthetic19,employee0602@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-02-14,2026-02-28,2026-02-28,,London,2026-02-14T09:00:00Z
+EMP-000603,Employee0603,Synthetic20,employee0603@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-04-07,2026-04-21,2026-04-21,,Bengaluru,2026-04-07T09:00:00Z
+EMP-000604,Employee0604,Synthetic21,employee0604@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-01-19,2026-02-02,2026-02-04,,Remote,2026-01-19T09:00:00Z
+EMP-000605,Employee0605,Synthetic22,employee0605@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-06-02,2026-06-16,2026-06-16,,New York,2026-06-02T09:00:00Z
+EMP-000606,Employee0606,Synthetic23,employee0606@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2025-12-28,2026-01-11,2026-01-11,,London,2025-12-28T09:00:00Z
+EMP-000607,Employee0607,Synthetic24,employee0607@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-03-21,2026-04-04,2026-04-04,,Bengaluru,2026-03-21T09:00:00Z
+EMP-000608,Employee0608,Synthetic25,employee0608@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-10-07,2026-10-21,2026-10-21,,Remote,2026-10-07T09:00:00Z
+EMP-000609,Employee0609,Synthetic26,employee0609@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-09-06,2026-09-20,2026-09-20,,New York,2026-09-06T09:00:00Z
+EMP-000610,Employee0610,Synthetic27,employee0610@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-03-12,2026-03-26,2026-03-26,,London,2026-03-12T09:00:00Z
+EMP-000611,Employee0611,Synthetic28,employee0611@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-07-22,2026-08-05,2026-08-05,2026-11-03,Bengaluru,2026-07-22T09:00:00Z
+EMP-000612,Employee0612,Synthetic29,employee0612@example.test,DEPT-002,ROLE-002,MGR-012,full_time,pending,2026-03-04,2026-03-18,,,Remote,2026-03-04T09:00:00Z
+EMP-000613,Employee0613,Synthetic30,employee0613@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-07-28,2026-08-11,2026-08-13,,New York,2026-07-28T09:00:00Z
+EMP-000614,Employee0614,Synthetic31,employee0614@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-03-16,2026-03-30,2026-03-30,,London,2026-03-16T09:00:00Z
+EMP-000615,Employee0615,Synthetic32,employee0615@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-06-01,2026-06-15,2026-06-15,,Bengaluru,2026-06-01T09:00:00Z
+EMP-000616,Employee0616,Synthetic33,employee0616@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-07-12,2026-07-26,2026-07-26,,Remote,2026-07-12T09:00:00Z
+EMP-000617,Employee0617,Synthetic34,employee0617@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-08-30,2026-09-13,2026-09-13,,New York,2026-08-30T09:00:00Z
+EMP-000618,Employee0618,Synthetic35,employee0618@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-04-28,2026-05-12,2026-05-12,,London,2026-04-28T09:00:00Z
+EMP-000619,Employee0619,Synthetic36,employee0619@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2026-10-04,2026-10-18,2026-10-18,,Bengaluru,2026-10-04T09:00:00Z
+EMP-000620,Employee0620,Synthetic37,employee0620@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2025-12-30,2026-01-13,2026-01-13,,Remote,2025-12-30T09:00:00Z
+EMP-000621,Employee0621,Synthetic38,employee0621@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-01-12,2026-01-26,2026-01-26,2026-04-26,New York,2026-01-12T09:00:00Z
+EMP-000622,Employee0622,Synthetic39,employee0622@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-01-08,2026-01-22,2026-01-28,,London,2026-01-08T09:00:00Z
+EMP-000623,Employee0623,Synthetic40,employee0623@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-05-04,2026-05-18,2026-05-18,,Bengaluru,2026-05-04T09:00:00Z
+EMP-000624,Employee0624,Synthetic41,employee0624@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-01-06,2026-01-20,2026-01-20,,Remote,2026-01-06T09:00:00Z
+EMP-000625,Employee0625,Synthetic42,employee0625@example.test,DEPT-005,ROLE-005,MGR-005,contractor,pending,2026-07-07,2026-07-21,,,New York,2026-07-07T09:00:00Z
+EMP-000626,Employee0626,Synthetic43,employee0626@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-01-14,2026-01-28,2026-01-28,,London,2026-01-14T09:00:00Z
+EMP-000627,Employee0627,Synthetic44,employee0627@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-03-01,2026-03-15,2026-03-15,,Bengaluru,2026-03-01T09:00:00Z
+EMP-000628,Employee0628,Synthetic45,employee0628@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-01-13,2026-01-27,2026-01-27,,Remote,2026-01-13T09:00:00Z
+EMP-000629,Employee0629,Synthetic46,employee0629@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-03-03,2026-03-17,2026-03-17,,New York,2026-03-03T09:00:00Z
+EMP-000630,Employee0630,Synthetic47,employee0630@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-08-27,2026-09-10,2026-09-10,,London,2026-08-27T09:00:00Z
+EMP-000631,Employee0631,Synthetic48,employee0631@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-04-26,2026-05-10,2026-05-17,2026-08-15,Bengaluru,2026-04-26T09:00:00Z
+EMP-000632,Employee0632,Synthetic49,employee0632@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-07-11,2026-07-25,2026-07-25,,Remote,2026-07-11T09:00:00Z
+EMP-000633,Employee0633,Synthetic50,employee0633@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-08-30,2026-09-13,2026-09-13,,New York,2026-08-30T09:00:00Z
+EMP-000634,Employee0634,Synthetic51,employee0634@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-09-25,2026-10-09,2026-10-09,,London,2026-09-25T09:00:00Z
+EMP-000635,Employee0635,Synthetic52,employee0635@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-06-07,2026-06-21,2026-06-21,,Bengaluru,2026-06-07T09:00:00Z
+EMP-000636,Employee0636,Synthetic53,employee0636@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-03-15,2026-03-29,2026-03-29,,Remote,2026-03-15T09:00:00Z
+EMP-000637,Employee0637,Synthetic54,employee0637@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-04-24,2026-05-08,2026-05-08,,New York,2026-04-24T09:00:00Z
+EMP-000638,Employee0638,Synthetic55,employee0638@example.test,DEPT-003,ROLE-003,MGR-018,full_time,pending,2026-03-22,2026-04-05,,,London,2026-03-22T09:00:00Z
+EMP-000639,Employee0639,Synthetic56,employee0639@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-06-12,2026-06-26,2026-06-26,,Bengaluru,2026-06-12T09:00:00Z
+EMP-000640,Employee0640,Synthetic57,employee0640@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-01-01,2026-01-15,2026-01-16,,Remote,2026-01-01T09:00:00Z
+EMP-000641,Employee0641,Synthetic58,employee0641@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-05-29,2026-06-12,2026-06-12,2026-09-10,New York,2026-05-29T09:00:00Z
+EMP-000642,Employee0642,Synthetic59,employee0642@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-06-14,2026-06-28,2026-06-28,,London,2026-06-14T09:00:00Z
+EMP-000643,Employee0643,Synthetic60,employee0643@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-06-25,2026-07-09,2026-07-09,,Bengaluru,2026-06-25T09:00:00Z
+EMP-000644,Employee0644,Synthetic61,employee0644@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-07-22,2026-08-05,2026-08-05,,Remote,2026-07-22T09:00:00Z
+EMP-000645,Employee0645,Synthetic62,employee0645@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-07-06,2026-07-20,2026-07-20,,New York,2026-07-06T09:00:00Z
+EMP-000646,Employee0646,Synthetic63,employee0646@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-05-07,2026-05-21,2026-05-21,,London,2026-05-07T09:00:00Z
+EMP-000647,Employee0647,Synthetic64,employee0647@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-01-19,2026-02-02,2026-02-02,,Bengaluru,2026-01-19T09:00:00Z
+EMP-000648,Employee0648,Synthetic65,employee0648@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-08-08,2026-08-22,2026-08-22,,Remote,2026-08-08T09:00:00Z
+EMP-000649,Employee0649,Synthetic66,employee0649@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-03-24,2026-04-07,2026-04-09,,New York,2026-03-24T09:00:00Z
+EMP-000650,Employee0650,Synthetic67,employee0650@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-03-15,2026-03-29,2026-03-29,,London,2026-03-15T09:00:00Z
+EMP-000651,Employee0651,Synthetic68,employee0651@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-03-26,2026-04-09,2026-04-09,2026-07-08,Bengaluru,2026-03-26T09:00:00Z
+EMP-000652,Employee0652,Synthetic69,employee0652@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-05-14,2026-05-28,2026-05-28,,Remote,2026-05-14T09:00:00Z
+EMP-000653,Employee0653,Synthetic70,employee0653@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-09-22,2026-10-06,2026-10-06,,New York,2026-09-22T09:00:00Z
+EMP-000654,Employee0654,Synthetic71,employee0654@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-01-02,2026-01-16,2026-01-16,,London,2026-01-02T09:00:00Z
+EMP-000655,Employee0655,Synthetic72,employee0655@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2026-07-10,2026-07-24,2026-07-24,,Bengaluru,2026-07-10T09:00:00Z
+EMP-000656,Employee0656,Synthetic73,employee0656@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-04-15,2026-04-29,2026-04-29,,Remote,2026-04-15T09:00:00Z
+EMP-000657,Employee0657,Synthetic74,employee0657@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-06-09,2026-06-23,2026-06-23,,New York,2026-06-09T09:00:00Z
+EMP-000658,Employee0658,Synthetic75,employee0658@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-05-03,2026-05-17,2026-05-19,,London,2026-05-03T09:00:00Z
+EMP-000659,Employee0659,Synthetic76,employee0659@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-06-19,2026-07-03,2026-07-03,,Bengaluru,2026-06-19T09:00:00Z
+EMP-000660,Employee0660,Synthetic77,employee0660@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2025-12-21,2026-01-04,2026-01-04,,Remote,2025-12-21T09:00:00Z
+EMP-000661,Employee0661,Synthetic78,employee0661@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-01-24,2026-02-07,2026-02-07,2026-05-08,New York,2026-01-24T09:00:00Z
+EMP-000662,Employee0662,Synthetic79,employee0662@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-09-08,2026-09-22,2026-09-22,,London,2026-09-08T09:00:00Z
+EMP-000663,Employee0663,Synthetic80,employee0663@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-03-22,2026-04-05,2026-04-05,,Bengaluru,2026-03-22T09:00:00Z
+EMP-000664,Employee0664,Synthetic81,employee0664@example.test,DEPT-004,ROLE-004,MGR-004,full_time,pending,2026-07-25,2026-08-08,,,Remote,2026-07-25T09:00:00Z
+EMP-000665,Employee0665,Synthetic82,employee0665@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-04-05,2026-04-19,2026-04-19,,New York,2026-04-05T09:00:00Z
+EMP-000666,Employee0666,Synthetic83,employee0666@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-05-31,2026-06-14,2026-06-14,,London,2026-05-31T09:00:00Z
+EMP-000667,Employee0667,Synthetic84,employee0667@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-08-24,2026-09-07,2026-09-09,,Bengaluru,2026-08-24T09:00:00Z
+EMP-000668,Employee0668,Synthetic85,employee0668@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-05-15,2026-05-29,2026-05-29,,Remote,2026-05-15T09:00:00Z
+EMP-000669,Employee0669,Synthetic86,employee0669@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-01-03,2026-01-17,2026-01-17,,New York,2026-01-03T09:00:00Z
+EMP-000670,Employee0670,Synthetic87,employee0670@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-02-08,2026-02-22,2026-02-22,,London,2026-02-08T09:00:00Z
+EMP-000671,Employee0671,Synthetic88,employee0671@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-05-19,2026-06-02,2026-06-02,2026-08-31,Bengaluru,2026-05-19T09:00:00Z
+EMP-000672,Employee0672,Synthetic89,employee0672@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-07-06,2026-07-20,2026-07-20,,Remote,2026-07-06T09:00:00Z
+EMP-000673,Employee0673,Synthetic90,employee0673@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-03-06,2026-03-20,2026-03-20,,New York,2026-03-06T09:00:00Z
+EMP-000674,Employee0674,Synthetic91,employee0674@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-07-29,2026-08-12,2026-08-12,,London,2026-07-29T09:00:00Z
+EMP-000675,Employee0675,Synthetic92,employee0675@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-04-23,2026-05-07,2026-05-07,,Bengaluru,2026-04-23T09:00:00Z
+EMP-000676,Employee0676,Synthetic93,employee0676@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-05-29,2026-06-12,2026-06-17,,Remote,2026-05-29T09:00:00Z
+EMP-000677,Employee0677,Synthetic94,employee0677@example.test,DEPT-002,ROLE-002,MGR-017,full_time,pending,2026-09-24,2026-10-08,,,New York,2026-09-24T09:00:00Z
+EMP-000678,Employee0678,Synthetic95,employee0678@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-03-04,2026-03-18,2026-03-18,,London,2026-03-04T09:00:00Z
+EMP-000679,Employee0679,Synthetic96,employee0679@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2026-09-20,2026-10-04,2026-10-04,,Bengaluru,2026-09-20T09:00:00Z
+EMP-000680,Employee0680,Synthetic00,employee0680@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-04-01,2026-04-15,2026-04-15,,Remote,2026-04-01T09:00:00Z
+EMP-000681,Employee0681,Synthetic01,employee0681@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-01-03,2026-01-17,2026-01-17,2026-04-17,New York,2026-01-03T09:00:00Z
+EMP-000682,Employee0682,Synthetic02,employee0682@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-06-28,2026-07-12,2026-07-12,,London,2026-06-28T09:00:00Z
+EMP-000683,Employee0683,Synthetic03,employee0683@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-02-15,2026-03-01,2026-03-01,,Bengaluru,2026-02-15T09:00:00Z
+EMP-000684,Employee0684,Synthetic04,employee0684@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-02-22,2026-03-08,2026-03-08,,Remote,2026-02-22T09:00:00Z
+EMP-000685,Employee0685,Synthetic05,employee0685@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-08-12,2026-08-26,2026-08-31,,New York,2026-08-12T09:00:00Z
+EMP-000686,Employee0686,Synthetic06,employee0686@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-03-06,2026-03-20,2026-03-20,,London,2026-03-06T09:00:00Z
+EMP-000687,Employee0687,Synthetic07,employee0687@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-04-25,2026-05-09,2026-05-09,,Bengaluru,2026-04-25T09:00:00Z
+EMP-000688,Employee0688,Synthetic08,employee0688@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-09-01,2026-09-15,2026-09-15,,Remote,2026-09-01T09:00:00Z
+EMP-000689,Employee0689,Synthetic09,employee0689@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-09-26,2026-10-10,2026-10-10,,New York,2026-09-26T09:00:00Z
+EMP-000690,Employee0690,Synthetic10,employee0690@example.test,DEPT-005,ROLE-005,MGR-010,full_time,pending,2026-05-14,2026-05-28,,,London,2026-05-14T09:00:00Z
+EMP-000691,Employee0691,Synthetic11,employee0691@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-08-30,2026-09-13,2026-09-13,2026-12-12,Bengaluru,2026-08-30T09:00:00Z
+EMP-000692,Employee0692,Synthetic12,employee0692@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-05-11,2026-05-25,2026-05-25,,Remote,2026-05-11T09:00:00Z
+EMP-000693,Employee0693,Synthetic13,employee0693@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-06-02,2026-06-16,2026-06-16,,New York,2026-06-02T09:00:00Z
+EMP-000694,Employee0694,Synthetic14,employee0694@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-04-06,2026-04-20,2026-04-21,,London,2026-04-06T09:00:00Z
+EMP-000695,Employee0695,Synthetic15,employee0695@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-01-31,2026-02-14,2026-02-14,,Bengaluru,2026-01-31T09:00:00Z
+EMP-000696,Employee0696,Synthetic16,employee0696@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-07-23,2026-08-06,2026-08-06,,Remote,2026-07-23T09:00:00Z
+EMP-000697,Employee0697,Synthetic17,employee0697@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-06-08,2026-06-22,2026-06-22,,New York,2026-06-08T09:00:00Z
+EMP-000698,Employee0698,Synthetic18,employee0698@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-01-20,2026-02-03,2026-02-03,,London,2026-01-20T09:00:00Z
+EMP-000699,Employee0699,Synthetic19,employee0699@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-09-22,2026-10-06,2026-10-06,,Bengaluru,2026-09-22T09:00:00Z
+EMP-000700,Employee0700,Synthetic20,employee0700@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-06-03,2026-06-17,2026-06-17,,Remote,2026-06-03T09:00:00Z
+EMP-000701,Employee0701,Synthetic21,employee0701@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-05-12,2026-05-26,2026-05-26,2026-08-24,New York,2026-05-12T09:00:00Z
+EMP-000702,Employee0702,Synthetic22,employee0702@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-07-31,2026-08-14,2026-08-14,,London,2026-07-31T09:00:00Z
+EMP-000703,Employee0703,Synthetic23,employee0703@example.test,DEPT-003,ROLE-003,MGR-003,contractor,pending,2026-05-12,2026-05-26,,,Bengaluru,2026-05-12T09:00:00Z
+EMP-000704,Employee0704,Synthetic24,employee0704@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-08-24,2026-09-07,2026-09-07,,Remote,2026-08-24T09:00:00Z
+EMP-000705,Employee0705,Synthetic25,employee0705@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2025-12-29,2026-01-12,2026-01-12,,New York,2025-12-29T09:00:00Z
+EMP-000706,Employee0706,Synthetic26,employee0706@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-05-13,2026-05-27,2026-05-27,,London,2026-05-13T09:00:00Z
+EMP-000707,Employee0707,Synthetic27,employee0707@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-09-27,2026-10-11,2026-10-11,,Bengaluru,2026-09-27T09:00:00Z
+EMP-000708,Employee0708,Synthetic28,employee0708@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-02-03,2026-02-17,2026-02-17,,Remote,2026-02-03T09:00:00Z
+EMP-000709,Employee0709,Synthetic29,employee0709@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-07-21,2026-08-04,2026-08-04,,New York,2026-07-21T09:00:00Z
+EMP-000710,Employee0710,Synthetic30,employee0710@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-03-30,2026-04-13,2026-04-13,,London,2026-03-30T09:00:00Z
+EMP-000711,Employee0711,Synthetic31,employee0711@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-06-09,2026-06-23,2026-06-23,2026-09-21,Bengaluru,2026-06-09T09:00:00Z
+EMP-000712,Employee0712,Synthetic32,employee0712@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-06-20,2026-07-04,2026-07-12,,Remote,2026-06-20T09:00:00Z
+EMP-000713,Employee0713,Synthetic33,employee0713@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-08-13,2026-08-27,2026-08-27,,New York,2026-08-13T09:00:00Z
+EMP-000714,Employee0714,Synthetic34,employee0714@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-01-05,2026-01-19,2026-01-19,,London,2026-01-05T09:00:00Z
+EMP-000715,Employee0715,Synthetic35,employee0715@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2026-02-16,2026-03-02,2026-03-02,,Bengaluru,2026-02-16T09:00:00Z
+EMP-000716,Employee0716,Synthetic36,employee0716@example.test,DEPT-001,ROLE-001,MGR-016,full_time,pending,2026-08-24,2026-09-07,,,Remote,2026-08-24T09:00:00Z
+EMP-000717,Employee0717,Synthetic37,employee0717@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-07-03,2026-07-17,2026-07-17,,New York,2026-07-03T09:00:00Z
+EMP-000718,Employee0718,Synthetic38,employee0718@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-06-16,2026-06-30,2026-06-30,,London,2026-06-16T09:00:00Z
+EMP-000719,Employee0719,Synthetic39,employee0719@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-01-24,2026-02-07,2026-02-07,,Bengaluru,2026-01-24T09:00:00Z
+EMP-000720,Employee0720,Synthetic40,employee0720@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-03-27,2026-04-10,2026-04-10,,Remote,2026-03-27T09:00:00Z
+EMP-000721,Employee0721,Synthetic41,employee0721@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-09-03,2026-09-17,2026-09-21,2026-12-20,New York,2026-09-03T09:00:00Z
+EMP-000722,Employee0722,Synthetic42,employee0722@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-06-04,2026-06-18,2026-06-18,,London,2026-06-04T09:00:00Z
+EMP-000723,Employee0723,Synthetic43,employee0723@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-01-08,2026-01-22,2026-01-22,,Bengaluru,2026-01-08T09:00:00Z
+EMP-000724,Employee0724,Synthetic44,employee0724@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-04-26,2026-05-10,2026-05-10,,Remote,2026-04-26T09:00:00Z
+EMP-000725,Employee0725,Synthetic45,employee0725@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-07-13,2026-07-27,2026-07-27,,New York,2026-07-13T09:00:00Z
+EMP-000726,Employee0726,Synthetic46,employee0726@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-07-28,2026-08-11,2026-08-11,,London,2026-07-28T09:00:00Z
+EMP-000727,Employee0727,Synthetic47,employee0727@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-06-18,2026-07-02,2026-07-02,,Bengaluru,2026-06-18T09:00:00Z
+EMP-000728,Employee0728,Synthetic48,employee0728@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-08-26,2026-09-09,2026-09-09,,Remote,2026-08-26T09:00:00Z
+EMP-000729,Employee0729,Synthetic49,employee0729@example.test,DEPT-004,ROLE-004,MGR-009,full_time,pending,2026-01-06,2026-01-20,,,New York,2026-01-06T09:00:00Z
+EMP-000730,Employee0730,Synthetic50,employee0730@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-05-18,2026-06-01,2026-06-09,,London,2026-05-18T09:00:00Z
+EMP-000731,Employee0731,Synthetic51,employee0731@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2025-12-28,2026-01-11,2026-01-11,2026-04-11,Bengaluru,2025-12-28T09:00:00Z
+EMP-000732,Employee0732,Synthetic52,employee0732@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-09-05,2026-09-19,2026-09-19,,Remote,2026-09-05T09:00:00Z
+EMP-000733,Employee0733,Synthetic53,employee0733@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-08-23,2026-09-06,2026-09-06,,New York,2026-08-23T09:00:00Z
+EMP-000734,Employee0734,Synthetic54,employee0734@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-03-01,2026-03-15,2026-03-15,,London,2026-03-01T09:00:00Z
+EMP-000735,Employee0735,Synthetic55,employee0735@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-01-26,2026-02-09,2026-02-09,,Bengaluru,2026-01-26T09:00:00Z
+EMP-000736,Employee0736,Synthetic56,employee0736@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-08-25,2026-09-08,2026-09-08,,Remote,2026-08-25T09:00:00Z
+EMP-000737,Employee0737,Synthetic57,employee0737@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-09-01,2026-09-15,2026-09-15,,New York,2026-09-01T09:00:00Z
+EMP-000738,Employee0738,Synthetic58,employee0738@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-10-04,2026-10-18,2026-10-18,,London,2026-10-04T09:00:00Z
+EMP-000739,Employee0739,Synthetic59,employee0739@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2026-05-06,2026-05-20,2026-05-23,,Bengaluru,2026-05-06T09:00:00Z
+EMP-000740,Employee0740,Synthetic60,employee0740@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-10-08,2026-10-22,2026-10-22,,Remote,2026-10-08T09:00:00Z
+EMP-000741,Employee0741,Synthetic61,employee0741@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-09-26,2026-10-10,2026-10-10,2027-01-08,New York,2026-09-26T09:00:00Z
+EMP-000742,Employee0742,Synthetic62,employee0742@example.test,DEPT-002,ROLE-002,MGR-002,full_time,pending,2026-10-12,2026-10-26,,,London,2026-10-12T09:00:00Z
+EMP-000743,Employee0743,Synthetic63,employee0743@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2025-12-31,2026-01-14,2026-01-14,,Bengaluru,2025-12-31T09:00:00Z
+EMP-000744,Employee0744,Synthetic64,employee0744@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-04-19,2026-05-03,2026-05-03,,Remote,2026-04-19T09:00:00Z
+EMP-000745,Employee0745,Synthetic65,employee0745@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-09-03,2026-09-17,2026-09-17,,New York,2026-09-03T09:00:00Z
+EMP-000746,Employee0746,Synthetic66,employee0746@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-06-02,2026-06-16,2026-06-16,,London,2026-06-02T09:00:00Z
+EMP-000747,Employee0747,Synthetic67,employee0747@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-05-28,2026-06-11,2026-06-11,,Bengaluru,2026-05-28T09:00:00Z
+EMP-000748,Employee0748,Synthetic68,employee0748@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-04-05,2026-04-19,2026-04-27,,Remote,2026-04-05T09:00:00Z
+EMP-000749,Employee0749,Synthetic69,employee0749@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-07-06,2026-07-20,2026-07-20,,New York,2026-07-06T09:00:00Z
+EMP-000750,Employee0750,Synthetic70,employee0750@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-10-09,2026-10-23,2026-10-23,,London,2026-10-09T09:00:00Z
+EMP-000751,Employee0751,Synthetic71,employee0751@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-01-30,2026-02-13,2026-02-13,2026-05-14,Bengaluru,2026-01-30T09:00:00Z
+EMP-000752,Employee0752,Synthetic72,employee0752@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-05-28,2026-06-11,2026-06-11,,Remote,2026-05-28T09:00:00Z
+EMP-000753,Employee0753,Synthetic73,employee0753@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-08-06,2026-08-20,2026-08-20,,New York,2026-08-06T09:00:00Z
+EMP-000754,Employee0754,Synthetic74,employee0754@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-01-30,2026-02-13,2026-02-13,,London,2026-01-30T09:00:00Z
+EMP-000755,Employee0755,Synthetic75,employee0755@example.test,DEPT-005,ROLE-005,MGR-015,full_time,pending,2026-02-27,2026-03-13,,,Bengaluru,2026-02-27T09:00:00Z
+EMP-000756,Employee0756,Synthetic76,employee0756@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-03-15,2026-03-29,2026-03-29,,Remote,2026-03-15T09:00:00Z
+EMP-000757,Employee0757,Synthetic77,employee0757@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-01-23,2026-02-06,2026-02-12,,New York,2026-01-23T09:00:00Z
+EMP-000758,Employee0758,Synthetic78,employee0758@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-07-15,2026-07-29,2026-07-29,,London,2026-07-15T09:00:00Z
+EMP-000759,Employee0759,Synthetic79,employee0759@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-09-16,2026-09-30,2026-09-30,,Bengaluru,2026-09-16T09:00:00Z
+EMP-000760,Employee0760,Synthetic80,employee0760@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-06-10,2026-06-24,2026-06-24,,Remote,2026-06-10T09:00:00Z
+EMP-000761,Employee0761,Synthetic81,employee0761@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-05-19,2026-06-02,2026-06-02,2026-08-31,New York,2026-05-19T09:00:00Z
+EMP-000762,Employee0762,Synthetic82,employee0762@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-06-18,2026-07-02,2026-07-02,,London,2026-06-18T09:00:00Z
+EMP-000763,Employee0763,Synthetic83,employee0763@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-04-13,2026-04-27,2026-04-27,,Bengaluru,2026-04-13T09:00:00Z
+EMP-000764,Employee0764,Synthetic84,employee0764@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-05-01,2026-05-15,2026-05-15,,Remote,2026-05-01T09:00:00Z
+EMP-000765,Employee0765,Synthetic85,employee0765@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-10-13,2026-10-27,2026-10-27,,New York,2026-10-13T09:00:00Z
+EMP-000766,Employee0766,Synthetic86,employee0766@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-07-03,2026-07-17,2026-07-22,,London,2026-07-03T09:00:00Z
+EMP-000767,Employee0767,Synthetic87,employee0767@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-09-08,2026-09-22,2026-09-22,,Bengaluru,2026-09-08T09:00:00Z
+EMP-000768,Employee0768,Synthetic88,employee0768@example.test,DEPT-003,ROLE-003,MGR-008,full_time,pending,2026-01-01,2026-01-15,,,Remote,2026-01-01T09:00:00Z
+EMP-000769,Employee0769,Synthetic89,employee0769@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-10-03,2026-10-17,2026-10-17,,New York,2026-10-03T09:00:00Z
+EMP-000770,Employee0770,Synthetic90,employee0770@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-07-13,2026-07-27,2026-07-27,,London,2026-07-13T09:00:00Z
+EMP-000771,Employee0771,Synthetic91,employee0771@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-06-18,2026-07-02,2026-07-02,2026-09-30,Bengaluru,2026-06-18T09:00:00Z
+EMP-000772,Employee0772,Synthetic92,employee0772@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-01-23,2026-02-06,2026-02-06,,Remote,2026-01-23T09:00:00Z
+EMP-000773,Employee0773,Synthetic93,employee0773@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-05-06,2026-05-20,2026-05-20,,New York,2026-05-06T09:00:00Z
+EMP-000774,Employee0774,Synthetic94,employee0774@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-09-27,2026-10-11,2026-10-11,,London,2026-09-27T09:00:00Z
+EMP-000775,Employee0775,Synthetic95,employee0775@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2026-05-27,2026-06-10,2026-06-11,,Bengaluru,2026-05-27T09:00:00Z
+EMP-000776,Employee0776,Synthetic96,employee0776@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-04-17,2026-05-01,2026-05-01,,Remote,2026-04-17T09:00:00Z
+EMP-000777,Employee0777,Synthetic00,employee0777@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-03-08,2026-03-22,2026-03-22,,New York,2026-03-08T09:00:00Z
+EMP-000778,Employee0778,Synthetic01,employee0778@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-06-29,2026-07-13,2026-07-13,,London,2026-06-29T09:00:00Z
+EMP-000779,Employee0779,Synthetic02,employee0779@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-08-29,2026-09-12,2026-09-12,,Bengaluru,2026-08-29T09:00:00Z
+EMP-000780,Employee0780,Synthetic03,employee0780@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-09-23,2026-10-07,2026-10-07,,Remote,2026-09-23T09:00:00Z
+EMP-000781,Employee0781,Synthetic04,employee0781@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-07-19,2026-08-02,2026-08-02,2026-10-31,New York,2026-07-19T09:00:00Z
+EMP-000782,Employee0782,Synthetic05,employee0782@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2025-12-21,2026-01-04,2026-01-04,,London,2025-12-21T09:00:00Z
+EMP-000783,Employee0783,Synthetic06,employee0783@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-08-30,2026-09-13,2026-09-13,,Bengaluru,2026-08-30T09:00:00Z
+EMP-000784,Employee0784,Synthetic07,employee0784@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-02-24,2026-03-10,2026-03-12,,Remote,2026-02-24T09:00:00Z
+EMP-000785,Employee0785,Synthetic08,employee0785@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-02-01,2026-02-15,2026-02-15,,New York,2026-02-01T09:00:00Z
+EMP-000786,Employee0786,Synthetic09,employee0786@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-07-29,2026-08-12,2026-08-12,,London,2026-07-29T09:00:00Z
+EMP-000787,Employee0787,Synthetic10,employee0787@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-09-25,2026-10-09,2026-10-09,,Bengaluru,2026-09-25T09:00:00Z
+EMP-000788,Employee0788,Synthetic11,employee0788@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-08-30,2026-09-13,2026-09-13,,Remote,2026-08-30T09:00:00Z
+EMP-000789,Employee0789,Synthetic12,employee0789@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-07-15,2026-07-29,2026-07-29,,New York,2026-07-15T09:00:00Z
+EMP-000790,Employee0790,Synthetic13,employee0790@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-04-18,2026-05-02,2026-05-02,,London,2026-04-18T09:00:00Z
+EMP-000791,Employee0791,Synthetic14,employee0791@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2025-12-21,2026-01-04,2026-01-04,2026-04-04,Bengaluru,2025-12-21T09:00:00Z
+EMP-000792,Employee0792,Synthetic15,employee0792@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-06-11,2026-06-25,2026-06-25,,Remote,2026-06-11T09:00:00Z
+EMP-000793,Employee0793,Synthetic16,employee0793@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-02-06,2026-02-20,2026-02-26,,New York,2026-02-06T09:00:00Z
+EMP-000794,Employee0794,Synthetic17,employee0794@example.test,DEPT-004,ROLE-004,MGR-014,full_time,pending,2026-04-13,2026-04-27,,,London,2026-04-13T09:00:00Z
+EMP-000795,Employee0795,Synthetic18,employee0795@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-01-04,2026-01-18,2026-01-18,,Bengaluru,2026-01-04T09:00:00Z
+EMP-000796,Employee0796,Synthetic19,employee0796@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-04-14,2026-04-28,2026-04-28,,Remote,2026-04-14T09:00:00Z
+EMP-000797,Employee0797,Synthetic20,employee0797@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-04-07,2026-04-21,2026-04-21,,New York,2026-04-07T09:00:00Z
+EMP-000798,Employee0798,Synthetic21,employee0798@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-06-03,2026-06-17,2026-06-17,,London,2026-06-03T09:00:00Z
+EMP-000799,Employee0799,Synthetic22,employee0799@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2026-03-27,2026-04-10,2026-04-10,,Bengaluru,2026-03-27T09:00:00Z
+EMP-000800,Employee0800,Synthetic23,employee0800@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-07-18,2026-08-01,2026-08-01,,Remote,2026-07-18T09:00:00Z
+EMP-000801,Employee0801,Synthetic24,employee0801@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-08-15,2026-08-29,2026-08-29,2026-11-27,New York,2026-08-15T09:00:00Z
+EMP-000802,Employee0802,Synthetic25,employee0802@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-01-20,2026-02-03,2026-02-05,,London,2026-01-20T09:00:00Z
+EMP-000803,Employee0803,Synthetic26,employee0803@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2025-12-26,2026-01-09,2026-01-09,,Bengaluru,2025-12-26T09:00:00Z
+EMP-000804,Employee0804,Synthetic27,employee0804@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-09-21,2026-10-05,2026-10-05,,Remote,2026-09-21T09:00:00Z
+EMP-000805,Employee0805,Synthetic28,employee0805@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-06-22,2026-07-06,2026-07-06,,New York,2026-06-22T09:00:00Z
+EMP-000806,Employee0806,Synthetic29,employee0806@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-05-30,2026-06-13,2026-06-13,,London,2026-05-30T09:00:00Z
+EMP-000807,Employee0807,Synthetic30,employee0807@example.test,DEPT-002,ROLE-002,MGR-007,full_time,pending,2026-03-07,2026-03-21,,,Bengaluru,2026-03-07T09:00:00Z
+EMP-000808,Employee0808,Synthetic31,employee0808@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-08-20,2026-09-03,2026-09-03,,Remote,2026-08-20T09:00:00Z
+EMP-000809,Employee0809,Synthetic32,employee0809@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-08-18,2026-09-01,2026-09-01,,New York,2026-08-18T09:00:00Z
+EMP-000810,Employee0810,Synthetic33,employee0810@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-01-12,2026-01-26,2026-01-26,,London,2026-01-12T09:00:00Z
+EMP-000811,Employee0811,Synthetic34,employee0811@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-04-16,2026-04-30,2026-05-03,2026-08-01,Bengaluru,2026-04-16T09:00:00Z
+EMP-000812,Employee0812,Synthetic35,employee0812@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-05-02,2026-05-16,2026-05-16,,Remote,2026-05-02T09:00:00Z
+EMP-000813,Employee0813,Synthetic36,employee0813@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-03-21,2026-04-04,2026-04-04,,New York,2026-03-21T09:00:00Z
+EMP-000814,Employee0814,Synthetic37,employee0814@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-01-27,2026-02-10,2026-02-10,,London,2026-01-27T09:00:00Z
+EMP-000815,Employee0815,Synthetic38,employee0815@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-06-13,2026-06-27,2026-06-27,,Bengaluru,2026-06-13T09:00:00Z
+EMP-000816,Employee0816,Synthetic39,employee0816@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-02-09,2026-02-23,2026-02-23,,Remote,2026-02-09T09:00:00Z
+EMP-000817,Employee0817,Synthetic40,employee0817@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2025-12-25,2026-01-08,2026-01-08,,New York,2025-12-25T09:00:00Z
+EMP-000818,Employee0818,Synthetic41,employee0818@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-07-31,2026-08-14,2026-08-14,,London,2026-07-31T09:00:00Z
+EMP-000819,Employee0819,Synthetic42,employee0819@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-02-21,2026-03-07,2026-03-07,,Bengaluru,2026-02-21T09:00:00Z
+EMP-000820,Employee0820,Synthetic43,employee0820@example.test,DEPT-005,ROLE-005,MGR-020,full_time,pending,2026-04-15,2026-04-29,,,Remote,2026-04-15T09:00:00Z
+EMP-000821,Employee0821,Synthetic44,employee0821@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-03-24,2026-04-07,2026-04-07,2026-07-06,New York,2026-03-24T09:00:00Z
+EMP-000822,Employee0822,Synthetic45,employee0822@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-08-24,2026-09-07,2026-09-07,,London,2026-08-24T09:00:00Z
+EMP-000823,Employee0823,Synthetic46,employee0823@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-07-04,2026-07-18,2026-07-18,,Bengaluru,2026-07-04T09:00:00Z
+EMP-000824,Employee0824,Synthetic47,employee0824@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-07-26,2026-08-09,2026-08-09,,Remote,2026-07-26T09:00:00Z
+EMP-000825,Employee0825,Synthetic48,employee0825@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-03-15,2026-03-29,2026-03-29,,New York,2026-03-15T09:00:00Z
+EMP-000826,Employee0826,Synthetic49,employee0826@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-02-27,2026-03-13,2026-03-13,,London,2026-02-27T09:00:00Z
+EMP-000827,Employee0827,Synthetic50,employee0827@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-07-22,2026-08-05,2026-08-05,,Bengaluru,2026-07-22T09:00:00Z
+EMP-000828,Employee0828,Synthetic51,employee0828@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-02-07,2026-02-21,2026-02-21,,Remote,2026-02-07T09:00:00Z
+EMP-000829,Employee0829,Synthetic52,employee0829@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-01-05,2026-01-19,2026-01-24,,New York,2026-01-05T09:00:00Z
+EMP-000830,Employee0830,Synthetic53,employee0830@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-06-21,2026-07-05,2026-07-05,,London,2026-06-21T09:00:00Z
+EMP-000831,Employee0831,Synthetic54,employee0831@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-05-22,2026-06-05,2026-06-05,2026-09-03,Bengaluru,2026-05-22T09:00:00Z
+EMP-000832,Employee0832,Synthetic55,employee0832@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-07-15,2026-07-29,2026-07-29,,Remote,2026-07-15T09:00:00Z
+EMP-000833,Employee0833,Synthetic56,employee0833@example.test,DEPT-003,ROLE-003,MGR-013,full_time,pending,2026-02-10,2026-02-24,,,New York,2026-02-10T09:00:00Z
+EMP-000834,Employee0834,Synthetic57,employee0834@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-01-05,2026-01-19,2026-01-19,,London,2026-01-05T09:00:00Z
+EMP-000835,Employee0835,Synthetic58,employee0835@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2026-05-31,2026-06-14,2026-06-14,,Bengaluru,2026-05-31T09:00:00Z
+EMP-000836,Employee0836,Synthetic59,employee0836@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-05-02,2026-05-16,2026-05-16,,Remote,2026-05-02T09:00:00Z
+EMP-000837,Employee0837,Synthetic60,employee0837@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-09-01,2026-09-15,2026-09-15,,New York,2026-09-01T09:00:00Z
+EMP-000838,Employee0838,Synthetic61,employee0838@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-09-12,2026-09-26,2026-10-03,,London,2026-09-12T09:00:00Z
+EMP-000839,Employee0839,Synthetic62,employee0839@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-04-19,2026-05-03,2026-05-03,,Bengaluru,2026-04-19T09:00:00Z
+EMP-000840,Employee0840,Synthetic63,employee0840@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-07-26,2026-08-09,2026-08-09,,Remote,2026-07-26T09:00:00Z
+EMP-000841,Employee0841,Synthetic64,employee0841@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2025-12-29,2026-01-12,2026-01-12,2026-04-12,New York,2025-12-29T09:00:00Z
+EMP-000842,Employee0842,Synthetic65,employee0842@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-08-10,2026-08-24,2026-08-24,,London,2026-08-10T09:00:00Z
+EMP-000843,Employee0843,Synthetic66,employee0843@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-06-01,2026-06-15,2026-06-15,,Bengaluru,2026-06-01T09:00:00Z
+EMP-000844,Employee0844,Synthetic67,employee0844@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-02-09,2026-02-23,2026-02-23,,Remote,2026-02-09T09:00:00Z
+EMP-000845,Employee0845,Synthetic68,employee0845@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-03-24,2026-04-07,2026-04-07,,New York,2026-03-24T09:00:00Z
+EMP-000846,Employee0846,Synthetic69,employee0846@example.test,DEPT-001,ROLE-001,MGR-006,full_time,pending,2026-06-21,2026-07-05,,,London,2026-06-21T09:00:00Z
+EMP-000847,Employee0847,Synthetic70,employee0847@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2025-12-18,2026-01-01,2026-01-03,,Bengaluru,2025-12-18T09:00:00Z
+EMP-000848,Employee0848,Synthetic71,employee0848@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-02-13,2026-02-27,2026-02-27,,Remote,2026-02-13T09:00:00Z
+EMP-000849,Employee0849,Synthetic72,employee0849@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-02-12,2026-02-26,2026-02-26,,New York,2026-02-12T09:00:00Z
+EMP-000850,Employee0850,Synthetic73,employee0850@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-01-21,2026-02-04,2026-02-04,,London,2026-01-21T09:00:00Z
+EMP-000851,Employee0851,Synthetic74,employee0851@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2025-12-24,2026-01-07,2026-01-07,2026-04-07,Bengaluru,2025-12-24T09:00:00Z
+EMP-000852,Employee0852,Synthetic75,employee0852@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-09-07,2026-09-21,2026-09-21,,Remote,2026-09-07T09:00:00Z
+EMP-000853,Employee0853,Synthetic76,employee0853@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-08-07,2026-08-21,2026-08-21,,New York,2026-08-07T09:00:00Z
+EMP-000854,Employee0854,Synthetic77,employee0854@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-03-12,2026-03-26,2026-03-26,,London,2026-03-12T09:00:00Z
+EMP-000855,Employee0855,Synthetic78,employee0855@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-06-10,2026-06-24,2026-06-24,,Bengaluru,2026-06-10T09:00:00Z
+EMP-000856,Employee0856,Synthetic79,employee0856@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-07-09,2026-07-23,2026-07-25,,Remote,2026-07-09T09:00:00Z
+EMP-000857,Employee0857,Synthetic80,employee0857@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-01-22,2026-02-05,2026-02-05,,New York,2026-01-22T09:00:00Z
+EMP-000858,Employee0858,Synthetic81,employee0858@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-02-02,2026-02-16,2026-02-16,,London,2026-02-02T09:00:00Z
+EMP-000859,Employee0859,Synthetic82,employee0859@example.test,DEPT-004,ROLE-004,MGR-019,contractor,pending,2025-12-21,2026-01-04,,,Bengaluru,2025-12-21T09:00:00Z
+EMP-000860,Employee0860,Synthetic83,employee0860@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-06-03,2026-06-17,2026-06-17,,Remote,2026-06-03T09:00:00Z
+EMP-000861,Employee0861,Synthetic84,employee0861@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-08-20,2026-09-03,2026-09-03,2026-12-02,New York,2026-08-20T09:00:00Z
+EMP-000862,Employee0862,Synthetic85,employee0862@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-07-13,2026-07-27,2026-07-27,,London,2026-07-13T09:00:00Z
+EMP-000863,Employee0863,Synthetic86,employee0863@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-05-24,2026-06-07,2026-06-07,,Bengaluru,2026-05-24T09:00:00Z
+EMP-000864,Employee0864,Synthetic87,employee0864@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-05-15,2026-05-29,2026-05-29,,Remote,2026-05-15T09:00:00Z
+EMP-000865,Employee0865,Synthetic88,employee0865@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-09-17,2026-10-01,2026-10-07,,New York,2026-09-17T09:00:00Z
+EMP-000866,Employee0866,Synthetic89,employee0866@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-04-03,2026-04-17,2026-04-17,,London,2026-04-03T09:00:00Z
+EMP-000867,Employee0867,Synthetic90,employee0867@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-02-04,2026-02-18,2026-02-18,,Bengaluru,2026-02-04T09:00:00Z
+EMP-000868,Employee0868,Synthetic91,employee0868@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-10-08,2026-10-22,2026-10-22,,Remote,2026-10-08T09:00:00Z
+EMP-000869,Employee0869,Synthetic92,employee0869@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-05-09,2026-05-23,2026-05-23,,New York,2026-05-09T09:00:00Z
+EMP-000870,Employee0870,Synthetic93,employee0870@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-06-02,2026-06-16,2026-06-16,,London,2026-06-02T09:00:00Z
+EMP-000871,Employee0871,Synthetic94,employee0871@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-05-02,2026-05-16,2026-05-16,2026-08-14,Bengaluru,2026-05-02T09:00:00Z
+EMP-000872,Employee0872,Synthetic95,employee0872@example.test,DEPT-002,ROLE-002,MGR-012,full_time,pending,2026-02-15,2026-03-01,,,Remote,2026-02-15T09:00:00Z
+EMP-000873,Employee0873,Synthetic96,employee0873@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-06-28,2026-07-12,2026-07-12,,New York,2026-06-28T09:00:00Z
+EMP-000874,Employee0874,Synthetic00,employee0874@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-08-22,2026-09-05,2026-09-08,,London,2026-08-22T09:00:00Z
+EMP-000875,Employee0875,Synthetic01,employee0875@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-09-19,2026-10-03,2026-10-03,,Bengaluru,2026-09-19T09:00:00Z
+EMP-000876,Employee0876,Synthetic02,employee0876@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-07-25,2026-08-08,2026-08-08,,Remote,2026-07-25T09:00:00Z
+EMP-000877,Employee0877,Synthetic03,employee0877@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-10-05,2026-10-19,2026-10-19,,New York,2026-10-05T09:00:00Z
+EMP-000878,Employee0878,Synthetic04,employee0878@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-06-28,2026-07-12,2026-07-12,,London,2026-06-28T09:00:00Z
+EMP-000879,Employee0879,Synthetic05,employee0879@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-09-15,2026-09-29,2026-09-29,,Bengaluru,2026-09-15T09:00:00Z
+EMP-000880,Employee0880,Synthetic06,employee0880@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-07-20,2026-08-03,2026-08-03,,Remote,2026-07-20T09:00:00Z
+EMP-000881,Employee0881,Synthetic07,employee0881@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-01-01,2026-01-15,2026-01-15,2026-04-15,New York,2026-01-01T09:00:00Z
+EMP-000882,Employee0882,Synthetic08,employee0882@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-10-06,2026-10-20,2026-10-20,,London,2026-10-06T09:00:00Z
+EMP-000883,Employee0883,Synthetic09,employee0883@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-09-27,2026-10-11,2026-10-12,,Bengaluru,2026-09-27T09:00:00Z
+EMP-000884,Employee0884,Synthetic10,employee0884@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-09-19,2026-10-03,2026-10-03,,Remote,2026-09-19T09:00:00Z
+EMP-000885,Employee0885,Synthetic11,employee0885@example.test,DEPT-005,ROLE-005,MGR-005,full_time,pending,2026-09-26,2026-10-10,,,New York,2026-09-26T09:00:00Z
+EMP-000886,Employee0886,Synthetic12,employee0886@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-08-29,2026-09-12,2026-09-12,,London,2026-08-29T09:00:00Z
+EMP-000887,Employee0887,Synthetic13,employee0887@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-05-29,2026-06-12,2026-06-12,,Bengaluru,2026-05-29T09:00:00Z
+EMP-000888,Employee0888,Synthetic14,employee0888@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-02-01,2026-02-15,2026-02-15,,Remote,2026-02-01T09:00:00Z
+EMP-000889,Employee0889,Synthetic15,employee0889@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-09-11,2026-09-25,2026-09-25,,New York,2026-09-11T09:00:00Z
+EMP-000890,Employee0890,Synthetic16,employee0890@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-09-28,2026-10-12,2026-10-12,,London,2026-09-28T09:00:00Z
+EMP-000891,Employee0891,Synthetic17,employee0891@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-09-09,2026-09-23,2026-09-23,2026-12-22,Bengaluru,2026-09-09T09:00:00Z
+EMP-000892,Employee0892,Synthetic18,employee0892@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-04-02,2026-04-16,2026-04-22,,Remote,2026-04-02T09:00:00Z
+EMP-000893,Employee0893,Synthetic19,employee0893@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-07-22,2026-08-05,2026-08-05,,New York,2026-07-22T09:00:00Z
+EMP-000894,Employee0894,Synthetic20,employee0894@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-05-08,2026-05-22,2026-05-22,,London,2026-05-08T09:00:00Z
+EMP-000895,Employee0895,Synthetic21,employee0895@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2026-03-01,2026-03-15,2026-03-15,,Bengaluru,2026-03-01T09:00:00Z
+EMP-000896,Employee0896,Synthetic22,employee0896@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-07-08,2026-07-22,2026-07-22,,Remote,2026-07-08T09:00:00Z
+EMP-000897,Employee0897,Synthetic23,employee0897@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-04-07,2026-04-21,2026-04-21,,New York,2026-04-07T09:00:00Z
+EMP-000898,Employee0898,Synthetic24,employee0898@example.test,DEPT-003,ROLE-003,MGR-018,full_time,pending,2026-08-19,2026-09-02,,,London,2026-08-19T09:00:00Z
+EMP-000899,Employee0899,Synthetic25,employee0899@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-05-14,2026-05-28,2026-05-28,,Bengaluru,2026-05-14T09:00:00Z
+EMP-000900,Employee0900,Synthetic26,employee0900@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-05-23,2026-06-06,2026-06-06,,Remote,2026-05-23T09:00:00Z
+EMP-000901,Employee0901,Synthetic27,employee0901@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-08-06,2026-08-20,2026-08-25,2026-11-23,New York,2026-08-06T09:00:00Z
+EMP-000902,Employee0902,Synthetic28,employee0902@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2025-12-25,2026-01-08,2026-01-08,,London,2025-12-25T09:00:00Z
+EMP-000903,Employee0903,Synthetic29,employee0903@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-09-02,2026-09-16,2026-09-16,,Bengaluru,2026-09-02T09:00:00Z
+EMP-000904,Employee0904,Synthetic30,employee0904@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-03-25,2026-04-08,2026-04-08,,Remote,2026-03-25T09:00:00Z
+EMP-000905,Employee0905,Synthetic31,employee0905@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-07-02,2026-07-16,2026-07-16,,New York,2026-07-02T09:00:00Z
+EMP-000906,Employee0906,Synthetic32,employee0906@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2025-12-25,2026-01-08,2026-01-08,,London,2025-12-25T09:00:00Z
+EMP-000907,Employee0907,Synthetic33,employee0907@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-08-24,2026-09-07,2026-09-07,,Bengaluru,2026-08-24T09:00:00Z
+EMP-000908,Employee0908,Synthetic34,employee0908@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-04-10,2026-04-24,2026-04-24,,Remote,2026-04-10T09:00:00Z
+EMP-000909,Employee0909,Synthetic35,employee0909@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-08-01,2026-08-15,2026-08-15,,New York,2026-08-01T09:00:00Z
+EMP-000910,Employee0910,Synthetic36,employee0910@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-09-20,2026-10-04,2026-10-09,,London,2026-09-20T09:00:00Z
+EMP-000911,Employee0911,Synthetic37,employee0911@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-05-17,2026-05-31,2026-05-31,2026-08-29,Bengaluru,2026-05-17T09:00:00Z
+EMP-000912,Employee0912,Synthetic38,employee0912@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-06-25,2026-07-09,2026-07-09,,Remote,2026-06-25T09:00:00Z
+EMP-000913,Employee0913,Synthetic39,employee0913@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2026-06-20,2026-07-04,2026-07-04,,New York,2026-06-20T09:00:00Z
+EMP-000914,Employee0914,Synthetic40,employee0914@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-03-12,2026-03-26,2026-03-26,,London,2026-03-12T09:00:00Z
+EMP-000915,Employee0915,Synthetic41,employee0915@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-02-08,2026-02-22,2026-02-22,,Bengaluru,2026-02-08T09:00:00Z
+EMP-000916,Employee0916,Synthetic42,employee0916@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2025-12-28,2026-01-11,2026-01-11,,Remote,2025-12-28T09:00:00Z
+EMP-000917,Employee0917,Synthetic43,employee0917@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-10-08,2026-10-22,2026-10-22,,New York,2026-10-08T09:00:00Z
+EMP-000918,Employee0918,Synthetic44,employee0918@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-09-15,2026-09-29,2026-09-29,,London,2026-09-15T09:00:00Z
+EMP-000919,Employee0919,Synthetic45,employee0919@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2025-12-20,2026-01-03,2026-01-05,,Bengaluru,2025-12-20T09:00:00Z
+EMP-000920,Employee0920,Synthetic46,employee0920@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-02-28,2026-03-14,2026-03-14,,Remote,2026-02-28T09:00:00Z
+EMP-000921,Employee0921,Synthetic47,employee0921@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-09-04,2026-09-18,2026-09-18,2026-12-17,New York,2026-09-04T09:00:00Z
+EMP-000922,Employee0922,Synthetic48,employee0922@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-01-06,2026-01-20,2026-01-20,,London,2026-01-06T09:00:00Z
+EMP-000923,Employee0923,Synthetic49,employee0923@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-07-15,2026-07-29,2026-07-29,,Bengaluru,2026-07-15T09:00:00Z
+EMP-000924,Employee0924,Synthetic50,employee0924@example.test,DEPT-004,ROLE-004,MGR-004,full_time,pending,2026-05-31,2026-06-14,,,Remote,2026-05-31T09:00:00Z
+EMP-000925,Employee0925,Synthetic51,employee0925@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-10-10,2026-10-24,2026-10-24,,New York,2026-10-10T09:00:00Z
+EMP-000926,Employee0926,Synthetic52,employee0926@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-07-06,2026-07-20,2026-07-20,,London,2026-07-06T09:00:00Z
+EMP-000927,Employee0927,Synthetic53,employee0927@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-04-06,2026-04-20,2026-04-20,,Bengaluru,2026-04-06T09:00:00Z
+EMP-000928,Employee0928,Synthetic54,employee0928@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-01-15,2026-01-29,2026-02-03,,Remote,2026-01-15T09:00:00Z
+EMP-000929,Employee0929,Synthetic55,employee0929@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-08-27,2026-09-10,2026-09-10,,New York,2026-08-27T09:00:00Z
+EMP-000930,Employee0930,Synthetic56,employee0930@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-03-23,2026-04-06,2026-04-06,,London,2026-03-23T09:00:00Z
+EMP-000931,Employee0931,Synthetic57,employee0931@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-08-12,2026-08-26,2026-08-26,2026-11-24,Bengaluru,2026-08-12T09:00:00Z
+EMP-000932,Employee0932,Synthetic58,employee0932@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-09-09,2026-09-23,2026-09-23,,Remote,2026-09-09T09:00:00Z
+EMP-000933,Employee0933,Synthetic59,employee0933@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-08-29,2026-09-12,2026-09-12,,New York,2026-08-29T09:00:00Z
+EMP-000934,Employee0934,Synthetic60,employee0934@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-05-15,2026-05-29,2026-05-29,,London,2026-05-15T09:00:00Z
+EMP-000935,Employee0935,Synthetic61,employee0935@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-05-27,2026-06-10,2026-06-10,,Bengaluru,2026-05-27T09:00:00Z
+EMP-000936,Employee0936,Synthetic62,employee0936@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-10-10,2026-10-24,2026-10-24,,Remote,2026-10-10T09:00:00Z
+EMP-000937,Employee0937,Synthetic63,employee0937@example.test,DEPT-002,ROLE-002,MGR-017,contractor,pending,2026-05-20,2026-06-03,,,New York,2026-05-20T09:00:00Z
+EMP-000938,Employee0938,Synthetic64,employee0938@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-04-04,2026-04-18,2026-04-18,,London,2026-04-04T09:00:00Z
+EMP-000939,Employee0939,Synthetic65,employee0939@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-05-28,2026-06-11,2026-06-11,,Bengaluru,2026-05-28T09:00:00Z
+EMP-000940,Employee0940,Synthetic66,employee0940@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-01-30,2026-02-13,2026-02-13,,Remote,2026-01-30T09:00:00Z
+EMP-000941,Employee0941,Synthetic67,employee0941@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-07-21,2026-08-04,2026-08-04,2026-11-02,New York,2026-07-21T09:00:00Z
+EMP-000942,Employee0942,Synthetic68,employee0942@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-09-26,2026-10-10,2026-10-10,,London,2026-09-26T09:00:00Z
+EMP-000943,Employee0943,Synthetic69,employee0943@example.test,DEPT-003,ROLE-003,MGR-003,contractor,active,2026-05-30,2026-06-13,2026-06-13,,Bengaluru,2026-05-30T09:00:00Z
+EMP-000944,Employee0944,Synthetic70,employee0944@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-08-27,2026-09-10,2026-09-10,,Remote,2026-08-27T09:00:00Z
+EMP-000945,Employee0945,Synthetic71,employee0945@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-01-01,2026-01-15,2026-01-15,,New York,2026-01-01T09:00:00Z
+EMP-000946,Employee0946,Synthetic72,employee0946@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-04-16,2026-04-30,2026-05-07,,London,2026-04-16T09:00:00Z
+EMP-000947,Employee0947,Synthetic73,employee0947@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-04-15,2026-04-29,2026-04-29,,Bengaluru,2026-04-15T09:00:00Z
+EMP-000948,Employee0948,Synthetic74,employee0948@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-09-21,2026-10-05,2026-10-05,,Remote,2026-09-21T09:00:00Z
+EMP-000949,Employee0949,Synthetic75,employee0949@example.test,DEPT-004,ROLE-004,MGR-009,contractor,active,2026-01-13,2026-01-27,2026-01-27,,New York,2026-01-13T09:00:00Z
+EMP-000950,Employee0950,Synthetic76,employee0950@example.test,DEPT-005,ROLE-005,MGR-010,full_time,pending,2026-10-10,2026-10-24,,,London,2026-10-10T09:00:00Z
+EMP-000951,Employee0951,Synthetic77,employee0951@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2025-12-29,2026-01-12,2026-01-12,2026-04-12,Bengaluru,2025-12-29T09:00:00Z
+EMP-000952,Employee0952,Synthetic78,employee0952@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-05-02,2026-05-16,2026-05-16,,Remote,2026-05-02T09:00:00Z
+EMP-000953,Employee0953,Synthetic79,employee0953@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-08-28,2026-09-11,2026-09-11,,New York,2026-08-28T09:00:00Z
+EMP-000954,Employee0954,Synthetic80,employee0954@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-04-09,2026-04-23,2026-04-23,,London,2026-04-09T09:00:00Z
+EMP-000955,Employee0955,Synthetic81,employee0955@example.test,DEPT-005,ROLE-005,MGR-015,contractor,active,2026-05-30,2026-06-13,2026-06-21,,Bengaluru,2026-05-30T09:00:00Z
+EMP-000956,Employee0956,Synthetic82,employee0956@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2025-12-27,2026-01-10,2026-01-10,,Remote,2025-12-27T09:00:00Z
+EMP-000957,Employee0957,Synthetic83,employee0957@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-06-16,2026-06-30,2026-06-30,,New York,2026-06-16T09:00:00Z
+EMP-000958,Employee0958,Synthetic84,employee0958@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-07-11,2026-07-25,2026-07-25,,London,2026-07-11T09:00:00Z
+EMP-000959,Employee0959,Synthetic85,employee0959@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-04-27,2026-05-11,2026-05-11,,Bengaluru,2026-04-27T09:00:00Z
+EMP-000960,Employee0960,Synthetic86,employee0960@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2025-12-26,2026-01-09,2026-01-09,,Remote,2025-12-26T09:00:00Z
+EMP-000961,Employee0961,Synthetic87,employee0961@example.test,DEPT-001,ROLE-001,MGR-001,contractor,terminated,2026-05-25,2026-06-08,2026-06-08,2026-09-06,New York,2026-05-25T09:00:00Z
+EMP-000962,Employee0962,Synthetic88,employee0962@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-07-13,2026-07-27,2026-07-27,,London,2026-07-13T09:00:00Z
+EMP-000963,Employee0963,Synthetic89,employee0963@example.test,DEPT-003,ROLE-003,MGR-003,full_time,pending,2026-03-17,2026-03-31,,,Bengaluru,2026-03-17T09:00:00Z
+EMP-000964,Employee0964,Synthetic90,employee0964@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-10-08,2026-10-22,2026-10-25,,Remote,2026-10-08T09:00:00Z
+EMP-000965,Employee0965,Synthetic91,employee0965@example.test,DEPT-005,ROLE-005,MGR-005,full_time,active,2026-02-10,2026-02-24,2026-02-24,,New York,2026-02-10T09:00:00Z
+EMP-000966,Employee0966,Synthetic92,employee0966@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-04-23,2026-05-07,2026-05-07,,London,2026-04-23T09:00:00Z
+EMP-000967,Employee0967,Synthetic93,employee0967@example.test,DEPT-002,ROLE-002,MGR-007,contractor,active,2026-09-24,2026-10-08,2026-10-08,,Bengaluru,2026-09-24T09:00:00Z
+EMP-000968,Employee0968,Synthetic94,employee0968@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-04-03,2026-04-17,2026-04-17,,Remote,2026-04-03T09:00:00Z
+EMP-000969,Employee0969,Synthetic95,employee0969@example.test,DEPT-004,ROLE-004,MGR-009,full_time,active,2026-02-14,2026-02-28,2026-02-28,,New York,2026-02-14T09:00:00Z
+EMP-000970,Employee0970,Synthetic96,employee0970@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-08-24,2026-09-07,2026-09-07,,London,2026-08-24T09:00:00Z
+EMP-000971,Employee0971,Synthetic00,employee0971@example.test,DEPT-001,ROLE-001,MGR-011,full_time,terminated,2026-04-04,2026-04-18,2026-04-18,2026-07-17,Bengaluru,2026-04-04T09:00:00Z
+EMP-000972,Employee0972,Synthetic01,employee0972@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-08-18,2026-09-01,2026-09-01,,Remote,2026-08-18T09:00:00Z
+EMP-000973,Employee0973,Synthetic02,employee0973@example.test,DEPT-003,ROLE-003,MGR-013,contractor,active,2025-12-19,2026-01-02,2026-01-06,,New York,2025-12-19T09:00:00Z
+EMP-000974,Employee0974,Synthetic03,employee0974@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-07-13,2026-07-27,2026-07-27,,London,2026-07-13T09:00:00Z
+EMP-000975,Employee0975,Synthetic04,employee0975@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-02-24,2026-03-10,2026-03-10,,Bengaluru,2026-02-24T09:00:00Z
+EMP-000976,Employee0976,Synthetic05,employee0976@example.test,DEPT-001,ROLE-001,MGR-016,full_time,pending,2026-06-28,2026-07-12,,,Remote,2026-06-28T09:00:00Z
+EMP-000977,Employee0977,Synthetic06,employee0977@example.test,DEPT-002,ROLE-002,MGR-017,full_time,active,2026-04-27,2026-05-11,2026-05-11,,New York,2026-04-27T09:00:00Z
+EMP-000978,Employee0978,Synthetic07,employee0978@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-05-31,2026-06-14,2026-06-14,,London,2026-05-31T09:00:00Z
+EMP-000979,Employee0979,Synthetic08,employee0979@example.test,DEPT-004,ROLE-004,MGR-019,contractor,active,2026-07-05,2026-07-19,2026-07-19,,Bengaluru,2026-07-05T09:00:00Z
+EMP-000980,Employee0980,Synthetic09,employee0980@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-05-31,2026-06-14,2026-06-14,,Remote,2026-05-31T09:00:00Z
+EMP-000981,Employee0981,Synthetic10,employee0981@example.test,DEPT-001,ROLE-001,MGR-001,full_time,terminated,2026-08-08,2026-08-22,2026-08-22,2026-11-20,New York,2026-08-08T09:00:00Z
+EMP-000982,Employee0982,Synthetic11,employee0982@example.test,DEPT-002,ROLE-002,MGR-002,full_time,active,2026-06-02,2026-06-16,2026-06-18,,London,2026-06-02T09:00:00Z
+EMP-000983,Employee0983,Synthetic12,employee0983@example.test,DEPT-003,ROLE-003,MGR-003,full_time,active,2026-01-14,2026-01-28,2026-01-28,,Bengaluru,2026-01-14T09:00:00Z
+EMP-000984,Employee0984,Synthetic13,employee0984@example.test,DEPT-004,ROLE-004,MGR-004,full_time,active,2026-10-08,2026-10-22,2026-10-22,,Remote,2026-10-08T09:00:00Z
+EMP-000985,Employee0985,Synthetic14,employee0985@example.test,DEPT-005,ROLE-005,MGR-005,contractor,active,2026-10-07,2026-10-21,2026-10-21,,New York,2026-10-07T09:00:00Z
+EMP-000986,Employee0986,Synthetic15,employee0986@example.test,DEPT-001,ROLE-001,MGR-006,full_time,active,2026-03-13,2026-03-27,2026-03-27,,London,2026-03-13T09:00:00Z
+EMP-000987,Employee0987,Synthetic16,employee0987@example.test,DEPT-002,ROLE-002,MGR-007,full_time,active,2026-02-02,2026-02-16,2026-02-16,,Bengaluru,2026-02-02T09:00:00Z
+EMP-000988,Employee0988,Synthetic17,employee0988@example.test,DEPT-003,ROLE-003,MGR-008,full_time,active,2026-07-30,2026-08-13,2026-08-13,,Remote,2026-07-30T09:00:00Z
+EMP-000989,Employee0989,Synthetic18,employee0989@example.test,DEPT-004,ROLE-004,MGR-009,full_time,pending,2026-02-18,2026-03-04,,,New York,2026-02-18T09:00:00Z
+EMP-000990,Employee0990,Synthetic19,employee0990@example.test,DEPT-005,ROLE-005,MGR-010,full_time,active,2026-03-12,2026-03-26,2026-03-26,,London,2026-03-12T09:00:00Z
+EMP-000991,Employee0991,Synthetic20,employee0991@example.test,DEPT-001,ROLE-001,MGR-011,contractor,terminated,2026-06-16,2026-06-30,2026-07-03,2026-10-01,Bengaluru,2026-06-16T09:00:00Z
+EMP-000992,Employee0992,Synthetic21,employee0992@example.test,DEPT-002,ROLE-002,MGR-012,full_time,active,2026-07-23,2026-08-06,2026-08-06,,Remote,2026-07-23T09:00:00Z
+EMP-000993,Employee0993,Synthetic22,employee0993@example.test,DEPT-003,ROLE-003,MGR-013,full_time,active,2026-04-20,2026-05-04,2026-05-04,,New York,2026-04-20T09:00:00Z
+EMP-000994,Employee0994,Synthetic23,employee0994@example.test,DEPT-004,ROLE-004,MGR-014,full_time,active,2026-09-08,2026-09-22,2026-09-22,,London,2026-09-08T09:00:00Z
+EMP-000995,Employee0995,Synthetic24,employee0995@example.test,DEPT-005,ROLE-005,MGR-015,full_time,active,2026-07-27,2026-08-10,2026-08-10,,Bengaluru,2026-07-27T09:00:00Z
+EMP-000996,Employee0996,Synthetic25,employee0996@example.test,DEPT-001,ROLE-001,MGR-016,full_time,active,2026-05-31,2026-06-14,2026-06-14,,Remote,2026-05-31T09:00:00Z
+EMP-000997,Employee0997,Synthetic26,employee0997@example.test,DEPT-002,ROLE-002,MGR-017,contractor,active,2026-02-17,2026-03-03,2026-03-03,,New York,2026-02-17T09:00:00Z
+EMP-000998,Employee0998,Synthetic27,employee0998@example.test,DEPT-003,ROLE-003,MGR-018,full_time,active,2026-04-27,2026-05-11,2026-05-11,,London,2026-04-27T09:00:00Z
+EMP-000999,Employee0999,Synthetic28,employee0999@example.test,DEPT-004,ROLE-004,MGR-019,full_time,active,2026-06-25,2026-07-09,2026-07-09,,Bengaluru,2026-06-25T09:00:00Z
+EMP-001000,Employee1000,Synthetic29,employee1000@example.test,DEPT-005,ROLE-005,MGR-020,full_time,active,2026-08-05,2026-08-19,2026-08-20,,Remote,2026-08-05T09:00:00Z

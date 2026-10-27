@@ -1,0 +1,37 @@
+[
+  {
+    "role_id":"ROLE-001",
+    "role_name":"People Partner",
+    "role_family":"People Operations",
+    "employment_type_default":"full_time",
+    "created_at":"2026-01-01T00:00:00Z"
+  },
+  {
+    "role_id":"ROLE-002",
+    "role_name":"Software Engineer",
+    "role_family":"Engineering",
+    "employment_type_default":"full_time",
+    "created_at":"2026-01-01T00:00:00Z"
+  },
+  {
+    "role_id":"ROLE-003",
+    "role_name":"Financial Analyst",
+    "role_family":"Finance",
+    "employment_type_default":"full_time",
+    "created_at":"2026-01-01T00:00:00Z"
+  },
+  {
+    "role_id":"ROLE-004",
+    "role_name":"Support Specialist",
+    "role_family":"Customer Operations",
+    "employment_type_default":"contractor",
+    "created_at":"2026-01-01T00:00:00Z"
+  },
+  {
+    "role_id":"ROLE-005",
+    "role_name":"Facilities Coordinator",
+    "role_family":"Facilities",
+    "employment_type_default":"full_time",
+    "created_at":"2026-01-01T00:00:00Z"
+  }
+]
