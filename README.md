@@ -31,44 +31,34 @@ employee_lifecycle_automation/
 ├── requirements.txt
 └── README.md
 ```
-
 ## Windows installation
 
-Open PowerShell in the folder where the repository/project folder should live:
+### 1. Create a virtual environment
 
 ```powershell
-$project = "employee_lifecycle_automation"
-$directories = @("config", "data/generated", "data/ground_truth", "data/exports", "database", "docs", "logs", "outputs/reports", "outputs/charts", "src", "tests")
-New-Item -ItemType Directory -Force -Path $project | Out-Null
-foreach ($directory in $directories) { New-Item -ItemType Directory -Force -Path (Join-Path $project $directory) | Out-Null }
-Set-Location $project
 py -3 -m venv .venv
-& .\.venv\Scripts\Activate.ps1
+```
+
+### 2. Activate the environment
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+If PowerShell blocks activation, run:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+Then activate again.
+
+### 3. Install the required packages
+
+```powershell
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
-
-If PowerShell blocks venv activation, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` in that terminal and activate again. Or call `.\.venv\Scripts\python.exe` directly. Command Prompt equivalent:
-
-```bat
-mkdir employee_lifecycle_automation\config
-mkdir employee_lifecycle_automation\data\generated
-mkdir employee_lifecycle_automation\data\ground_truth
-mkdir employee_lifecycle_automation\data\exports
-mkdir employee_lifecycle_automation\database
-mkdir employee_lifecycle_automation\docs
-mkdir employee_lifecycle_automation\logs
-mkdir employee_lifecycle_automation\outputs\reports
-mkdir employee_lifecycle_automation\outputs\charts
-mkdir employee_lifecycle_automation\src
-mkdir employee_lifecycle_automation\tests
-cd employee_lifecycle_automation
-py -3 -m venv .venv
-.venv\Scripts\activate.bat
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
-
 ## Commands
 
 Run commands from the project directory. The CLI reads `config/config.json`; `--mode` and `--seed` override its generation settings.
